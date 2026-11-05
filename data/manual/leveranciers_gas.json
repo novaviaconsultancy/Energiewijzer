@@ -1,0 +1,434 @@
+[
+{
+"id": "Budget Thuis · Variabel",
+"leverancier": "Budget Thuis",
+"contract": "Variabel",
+"gasprijs": 1.997,
+"stroomprijs": 0.413,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Budget Thuis · Vast 1 jaar",
+"leverancier": "Budget Thuis",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.937,
+"stroomprijs": 0.339,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Budget Thuis · Vast 3 jaar",
+"leverancier": "Budget Thuis",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.74,
+"stroomprijs": 0.298,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Coolblue · Vast 1 jaar",
+"leverancier": "Coolblue",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.946,
+"stroomprijs": 0.347,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Coolblue · Vast 3 jaar",
+"leverancier": "Coolblue",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.783,
+"stroomprijs": 0.298,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Delta Energie · Vast 1 jaar",
+"leverancier": "Delta Energie",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.907,
+"stroomprijs": 0.33,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Delta Energie · Vast 3 jaar",
+"leverancier": "Delta Energie",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.764,
+"stroomprijs": 0.31,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Eneco · Variabel",
+"leverancier": "Eneco",
+"contract": "Variabel",
+"gasprijs": 2.109,
+"stroomprijs": 0.422,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Eneco · Vast 1 jaar",
+"leverancier": "Eneco",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.959,
+"stroomprijs": 0.351,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Eneco · Vast 3 jaar",
+"leverancier": "Eneco",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.769,
+"stroomprijs": 0.302,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Energie VanOns · Vast 1 jaar",
+"leverancier": "Energie VanOns",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.983,
+"stroomprijs": 0.364,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Energie VanOns · Vast 3 jaar",
+"leverancier": "Energie VanOns",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.747,
+"stroomprijs": 0.293,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Energiedirect · Variabel",
+"leverancier": "Energiedirect",
+"contract": "Variabel",
+"gasprijs": 1.834,
+"stroomprijs": 0.38,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Energiedirect · Vast 1 jaar",
+"leverancier": "Energiedirect",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.905,
+"stroomprijs": 0.346,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Energiedirect · Vast 2 jaar",
+"leverancier": "Energiedirect",
+"contract": "Vast 2 jaar",
+"gasprijs": 1.861,
+"stroomprijs": 0.317,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Energiedirect · Vast 3 jaar",
+"leverancier": "Energiedirect",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.811,
+"stroomprijs": 0.299,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Engie · Variabel",
+"leverancier": "Engie",
+"contract": "Variabel",
+"gasprijs": 1.948,
+"stroomprijs": 0.35,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Engie · Vast 1 jaar",
+"leverancier": "Engie",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.926,
+"stroomprijs": 0.334,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Engie · Vast 2 jaar",
+"leverancier": "Engie",
+"contract": "Vast 2 jaar",
+"gasprijs": 1.841,
+"stroomprijs": 0.304,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Engie · Vast 3 jaar",
+"leverancier": "Engie",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.78,
+"stroomprijs": 0.292,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Essent · Variabel",
+"leverancier": "Essent",
+"contract": "Variabel",
+"gasprijs": 1.852,
+"stroomprijs": 0.387,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Essent · Vast 1 jaar",
+"leverancier": "Essent",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.941,
+"stroomprijs": 0.368,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Essent · Vast 3 jaar",
+"leverancier": "Essent",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.876,
+"stroomprijs": 0.35,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Gewoon Energie · Vast 1 jaar",
+"leverancier": "Gewoon Energie",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.876,
+"stroomprijs": 0.347,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Gewoon Energie · Vast 2 jaar",
+"leverancier": "Gewoon Energie",
+"contract": "Vast 2 jaar",
+"gasprijs": 1.772,
+"stroomprijs": 0.319,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Gewoon Energie · Vast 3 jaar",
+"leverancier": "Gewoon Energie",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.676,
+"stroomprijs": 0.301,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Greenchoice · Variabel",
+"leverancier": "Greenchoice",
+"contract": "Variabel",
+"gasprijs": 1.817,
+"stroomprijs": 0.38,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Greenchoice · Vast 1 jaar",
+"leverancier": "Greenchoice",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.96,
+"stroomprijs": 0.342,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Greenchoice · Vast 2 jaar",
+"leverancier": "Greenchoice",
+"contract": "Vast 2 jaar",
+"gasprijs": 1.874,
+"stroomprijs": 0.319,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Greenchoice · Vast 3 jaar",
+"leverancier": "Greenchoice",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.811,
+"stroomprijs": 0.333,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Innova Energie · Vast 1 jaar",
+"leverancier": "Innova Energie",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.876,
+"stroomprijs": 0.347,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Innova Energie · Vast 2 jaar",
+"leverancier": "Innova Energie",
+"contract": "Vast 2 jaar",
+"gasprijs": 1.772,
+"stroomprijs": 0.319,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Innova Energie · Vast 3 jaar",
+"leverancier": "Innova Energie",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.676,
+"stroomprijs": 0.301,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Mega · Variabel",
+"leverancier": "Mega",
+"contract": "Variabel",
+"gasprijs": 1.891,
+"stroomprijs": 0.422,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Mega · Vast 1 jaar",
+"leverancier": "Mega",
+"contract": "Vast 1 jaar",
+"gasprijs": 2.119,
+"stroomprijs": 0.396,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Mega · Vast 2 jaar",
+"leverancier": "Mega",
+"contract": "Vast 2 jaar",
+"gasprijs": 1.971,
+"stroomprijs": 0.363,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Mega · Vast 3 jaar",
+"leverancier": "Mega",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.84,
+"stroomprijs": 0.339,
+"peildatum": "2026-11-04"
+},
+{
+"id": "OM · Variabel",
+"leverancier": "OM",
+"contract": "Variabel",
+"gasprijs": 1.751,
+"stroomprijs": 0.37,
+"peildatum": "2026-11-04"
+},
+{
+"id": "OM · Vast 1 jaar",
+"leverancier": "OM",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.983,
+"stroomprijs": 0.364,
+"peildatum": "2026-11-04"
+},
+{
+"id": "OM · Vast 3 jaar",
+"leverancier": "OM",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.747,
+"stroomprijs": 0.293,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Oxxio · Vast 1 jaar",
+"leverancier": "Oxxio",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.926,
+"stroomprijs": 0.336,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Oxxio · Vast 3 jaar",
+"leverancier": "Oxxio",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.769,
+"stroomprijs": 0.29,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Powerpeers · Vast 1 jaar",
+"leverancier": "Powerpeers",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.982,
+"stroomprijs": 0.366,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Pure Energie · Variabel",
+"leverancier": "Pure Energie",
+"contract": "Variabel",
+"gasprijs": 2.0,
+"stroomprijs": null,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Pure Energie · Vast 1 jaar",
+"leverancier": "Pure Energie",
+"contract": "Vast 1 jaar",
+"gasprijs": 2.002,
+"stroomprijs": null,
+"peildatum": "2026-11-04"
+},
+{
+"id": "UnitedConsumers · Vast 1 jaar",
+"leverancier": "UnitedConsumers",
+"contract": "Vast 1 jaar",
+"gasprijs": 2.044,
+"stroomprijs": 0.347,
+"peildatum": "2026-11-04"
+},
+{
+"id": "UnitedConsumers · Vast 3 jaar",
+"leverancier": "UnitedConsumers",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.819,
+"stroomprijs": 0.295,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Vandebron · Variabel",
+"leverancier": "Vandebron",
+"contract": "Variabel",
+"gasprijs": 2.036,
+"stroomprijs": 0.398,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Vandebron · Vast 1 jaar",
+"leverancier": "Vandebron",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.94,
+"stroomprijs": 0.331,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Vandebron · Vast 2 jaar",
+"leverancier": "Vandebron",
+"contract": "Vast 2 jaar",
+"gasprijs": 1.845,
+"stroomprijs": 0.304,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Vandebron · Vast 3 jaar",
+"leverancier": "Vandebron",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.761,
+"stroomprijs": 0.287,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Vattenfall · Variabel",
+"leverancier": "Vattenfall",
+"contract": "Variabel",
+"gasprijs": 1.714,
+"stroomprijs": 0.328,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Vattenfall · Vast 1 jaar",
+"leverancier": "Vattenfall",
+"contract": "Vast 1 jaar",
+"gasprijs": 1.953,
+"stroomprijs": 0.345,
+"peildatum": "2026-11-04"
+},
+{
+"id": "Vattenfall · Vast 3 jaar",
+"leverancier": "Vattenfall",
+"contract": "Vast 3 jaar",
+"gasprijs": 1.803,
+"stroomprijs": 0.328,
+"peildatum": "2026-11-04"
+}
+]

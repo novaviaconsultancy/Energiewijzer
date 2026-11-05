@@ -1,0 +1,8 @@
+{
+  "gas": [
+    {"jaar": 2026, "eb_excl": 0.60066, "status": "aangenomen", "bron": "Belastingplan 2026 / CBS 85592NED"},
+    {"jaar": 2027, "eb_excl": 0.6163, "status": "voorstel", "bron": "Belastingplan 2027 (wetsvoorstel 37022, gecorrigeerd tarief)"}
+  ],
+  "netbeheer_stijging_2027_gas": {"bedrag_per_jaar": 52, "bron": "ACM-raming, 14 sep 2026"},
+  "btw": 0.21
+}

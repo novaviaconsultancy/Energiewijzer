@@ -1,0 +1,92 @@
+[
+{
+"maand": "2025-11",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.276,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2025-12",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.254,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-01",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.252,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-02",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.273,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-03",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.271,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-04",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.476,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-05",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.39,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-06",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.412,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-07",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.387,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-08",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.438,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-09",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.514,
+"meting": "afgelezen uit grafiek"
+},
+{
+"maand": "2026-10",
+"contract": "Vast ≥ 2 jaar",
+"prijs": 1.59,
+"meting": "kaartwaarde"
+},
+{
+"maand": "2026-10",
+"contract": "Modelcontract",
+"prijs": 1.71,
+"meting": "kaartwaarde"
+},
+{
+"maand": "2026-10",
+"contract": "Variabel",
+"prijs": 1.5,
+"meting": "kaartwaarde"
+},
+{
+"maand": "2026-10",
+"contract": "Vast ≤ 1 jaar",
+"prijs": 1.71,
+"meting": "kaartwaarde"
+}
+]

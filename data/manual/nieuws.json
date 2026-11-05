@@ -1,0 +1,83 @@
+[
+{
+"datum": "2026-11-10",
+"titel": "INES-update over de gasopslag",
+"samenvatting": "Volgende ijkpunt voor de winterbalans: analisten zien deze update als test voor de vraag of de wintercontracten verder kunnen dalen.",
+"bron": "The Traders Spread",
+"url": "https://thetradersspread.com/commodities/ttf-gas-price-prediction-92-bull-46-bear",
+"richting": "agenda",
+"ttf": null
+},
+{
+"datum": "2026-11-04",
+"titel": "Gasprijs zakt na verkiezingsnederlaag Trump",
+"samenvatting": "Brent daalt 10% naar ruim 93 dollar; de TTF zakt tot net boven €84/MWh. Handelaren rekenen op de-escalatie rond Iran nu de Republikeinen hun Congresmeerderheid kwijt zijn.",
+"bron": "VRT NWS",
+"url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+"richting": "omlaag",
+"ttf": 84
+},
+{
+"datum": "2026-11-04",
+"titel": "Democraten winnen het Congres",
+"samenvatting": "Hoge kosten van levensonderhoud, waaronder brandstof, speelden volgens exitpolls een grote rol. Of prijzen blijvend dalen hangt vooral af van het conflict met Iran.",
+"bron": "TopGear.nl",
+"url": "https://topgear.nl/autonieuws/benzineprijs-amerikaanse-verkiezingen-trump-congres-goedkoper-tanken/",
+"richting": "neutraal",
+"ttf": null
+},
+{
+"datum": "2026-11-02",
+"titel": "TTF terug naar ±€101 na rally van 30% in oktober",
+"samenvatting": "Winstnemingen na de oktoberpiek boven €104. Analisten zien geen structurele ontspanning: de Europese voorraden blijven ongewoon laag.",
+"bron": "Capmad",
+"url": "https://www.capmad.com/post/ttf-slips-back-to-101mwh-after-a-30-october-rally",
+"richting": "omlaag",
+"ttf": 101
+},
+{
+"datum": "2026-11-02",
+"titel": "Europese gasprijs onder €100 door diplomatie-signalen",
+"samenvatting": "Trump wil volgens Axios de diplomatie met Iran meer tijd geven; de TTF zakt in de middag naar ruim €98/MWh.",
+"bron": "VRT NWS",
+"url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+"richting": "omlaag",
+"ttf": 98.1
+},
+{
+"datum": "2026-10-30",
+"titel": "TTF boven €103, hoogste sinds december 2022",
+"samenvatting": "Na een korte terugval stijgt de groothandelsprijs weer ruim boven de €100/MWh.",
+"bron": "VRT NWS",
+"url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+"richting": "omhoog",
+"ttf": 103
+},
+{
+"datum": "2026-10-28",
+"titel": "Gasprijs voor het eerst sinds 2022 boven €100",
+"samenvatting": "Angst voor nieuwe escalatie: volgens de WSJ zijn Golfstaten gewaarschuwd voor een mogelijke Amerikaanse campagne na de verkiezingen.",
+"bron": "VRT NWS",
+"url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+"richting": "omhoog",
+"ttf": 100
+},
+{
+"datum": "2026-09-22",
+"titel": "Beursprijs 16% lager, leveranciers verlagen vaste tarieven",
+"samenvatting": "Na de piek half september dalen nieuwe vaste contracten bij onder meer Energiedirect en Essent met 13–20 cent per m³.",
+"bron": "Energievergelijk.nl",
+"url": "https://www.energievergelijk.nl/nieuws/gasprijs-op-de-beurs-16-omlaag-deze-leveranciers-verlaagden-hun-tarieven-al",
+"richting": "omlaag",
+"ttf": 69.18
+},
+{
+"datum": "2026-08-26",
+"titel": "Nederland haalt vuldoel gasopslag niet",
+"samenvatting": "Gasunie verwacht geen tekorten, maar wel hogere prijzen; de Nederlandse opslag was op dat moment voor ruim 45% gevuld.",
+"bron": "VRT NWS / Gasunie",
+"url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+"richting": "omhoog",
+"ttf": null
+}
+]

@@ -1,0 +1,1732 @@
+{
+ "versie": 1,
+ "gegenereerd": "2026-11-05T13:32:29Z",
+ "bronnen": {
+  "cbs": {
+   "naam": "CBS StatLine 85592NED",
+   "url": "https://opendata.cbs.nl/ODataApi/OData/85592NED",
+   "rijen": 57,
+   "laatste_periode": "2026-09",
+   "bijgewerkt": "2026-11-05T07:59:23Z",
+   "schema": "maandelijks, rond de 2e donderdag",
+   "status": "ok",
+   "melding": null
+  },
+  "ttf_termijn": {
+   "naam": "TTF-termijnaannames",
+   "url": "data/manual/ttf_termijn.json",
+   "rijen": 10,
+   "laatste_periode": null,
+   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "schema": "bij grote marktbewegingen",
+   "status": "ok",
+   "melding": null
+  },
+  "acm_mediaan": {
+   "naam": "ACM Monitor Consumentenmarkt Energie",
+   "url": "data/manual/acm_mediaan_gas.json",
+   "rijen": 15,
+   "laatste_periode": null,
+   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "schema": "maandelijks, rond het midden van de maand",
+   "status": "ok",
+   "melding": null
+  },
+  "leveranciers": {
+   "naam": "Tarieven per leverancier",
+   "url": "data/manual/leveranciers_gas.json",
+   "rijen": 54,
+   "laatste_periode": null,
+   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "schema": "wekelijks",
+   "status": "ok",
+   "melding": null
+  },
+  "nieuws": {
+   "naam": "Nieuws gasmarkt",
+   "url": "data/manual/nieuws.json",
+   "rijen": 9,
+   "laatste_periode": null,
+   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "schema": "wekelijks",
+   "status": "ok",
+   "melding": null
+  },
+  "belasting": {
+   "naam": "Energiebelasting en status Belastingplan",
+   "url": "data/manual/belasting.json",
+   "rijen": 1,
+   "laatste_periode": null,
+   "bijgewerkt": "2026-11-05T13:32:21Z",
+   "schema": "jaarlijks, na stemming Eerste Kamer",
+   "status": "ok",
+   "melding": null
+  }
+ },
+ "cbs_gas": [
+  {
+   "maand": "2022-01",
+   "levering_incl": 0.5036,
+   "ode_incl": 0.10467,
+   "energiebelasting_incl": 0.4395,
+   "transport_incl": 191.33,
+   "vastrecht_incl": 71.11,
+   "levering_excl": 0.4162,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 58.77
+  },
+  {
+   "maand": "2022-02",
+   "levering_incl": 0.5493,
+   "ode_incl": 0.10467,
+   "energiebelasting_incl": 0.4395,
+   "transport_incl": 191.33,
+   "vastrecht_incl": 71.69,
+   "levering_excl": 0.4539,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.25
+  },
+  {
+   "maand": "2022-03",
+   "levering_incl": 0.5696,
+   "ode_incl": 0.10467,
+   "energiebelasting_incl": 0.4395,
+   "transport_incl": 191.33,
+   "vastrecht_incl": 71.97,
+   "levering_excl": 0.4708,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.48
+  },
+  {
+   "maand": "2022-04",
+   "levering_incl": 0.6307,
+   "ode_incl": 0.10467,
+   "energiebelasting_incl": 0.4395,
+   "transport_incl": 191.33,
+   "vastrecht_incl": 72.18,
+   "levering_excl": 0.5212,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.66
+  },
+  {
+   "maand": "2022-05",
+   "levering_incl": 0.6716,
+   "ode_incl": 0.10467,
+   "energiebelasting_incl": 0.4395,
+   "transport_incl": 191.33,
+   "vastrecht_incl": 72.43,
+   "levering_excl": 0.5551,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.86
+  },
+  {
+   "maand": "2022-06",
+   "levering_incl": 0.6928,
+   "ode_incl": 0.10467,
+   "energiebelasting_incl": 0.4395,
+   "transport_incl": 191.33,
+   "vastrecht_incl": 72.62,
+   "levering_excl": 0.5725,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.02
+  },
+  {
+   "maand": "2022-07",
+   "levering_incl": 0.7698,
+   "ode_incl": 0.09429,
+   "energiebelasting_incl": 0.39591,
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.58,
+   "levering_excl": 0.7062,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.16
+  },
+  {
+   "maand": "2022-08",
+   "levering_incl": 0.7975,
+   "ode_incl": 0.09429,
+   "energiebelasting_incl": 0.39591,
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.71,
+   "levering_excl": 0.7316,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.29
+  },
+  {
+   "maand": "2022-09",
+   "levering_incl": 0.8856,
+   "ode_incl": 0.09429,
+   "energiebelasting_incl": 0.39591,
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.03,
+   "levering_excl": 0.8124,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.66
+  },
+  {
+   "maand": "2022-10",
+   "levering_incl": 1.0886,
+   "ode_incl": 0.09429,
+   "energiebelasting_incl": 0.39591,
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.89,
+   "levering_excl": 0.9987,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.45
+  },
+  {
+   "maand": "2022-11",
+   "levering_incl": 1.4979,
+   "ode_incl": 0.09429,
+   "energiebelasting_incl": 0.39591,
+   "transport_incl": 172.35,
+   "vastrecht_incl": 66.02,
+   "levering_excl": 1.3742,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.57
+  },
+  {
+   "maand": "2022-12",
+   "levering_incl": 1.5162,
+   "ode_incl": 0.09429,
+   "energiebelasting_incl": 0.39591,
+   "transport_incl": 172.35,
+   "vastrecht_incl": 66.08,
+   "levering_excl": 1.391,
+   "ode_excl": 0.0865,
+   "energiebelasting_excl": 0.36322,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.62
+  },
+  {
+   "maand": "2023-01",
+   "levering_incl": 1.9961,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 73.47,
+   "levering_excl": 1.6497,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 60.72
+  },
+  {
+   "maand": "2023-02",
+   "levering_incl": 1.8467,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 73.53,
+   "levering_excl": 1.5262,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 60.77
+  },
+  {
+   "maand": "2023-03",
+   "levering_incl": 1.7209,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 73.6,
+   "levering_excl": 1.4222,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 60.82
+  },
+  {
+   "maand": "2023-04",
+   "levering_incl": 1.1846,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 73.68,
+   "levering_excl": 0.979,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 60.89
+  },
+  {
+   "maand": "2023-05",
+   "levering_incl": 0.952,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 73.75,
+   "levering_excl": 0.7868,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 60.95
+  },
+  {
+   "maand": "2023-06",
+   "levering_incl": 0.8902,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 73.81,
+   "levering_excl": 0.7357,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 61
+  },
+  {
+   "maand": "2023-07",
+   "levering_incl": 0.6951,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 74.67,
+   "levering_excl": 0.5745,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 61.71
+  },
+  {
+   "maand": "2023-08",
+   "levering_incl": 0.6697,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 75.02,
+   "levering_excl": 0.5535,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 62
+  },
+  {
+   "maand": "2023-09",
+   "levering_incl": 0.6683,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 75.44,
+   "levering_excl": 0.5523,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 62.34
+  },
+  {
+   "maand": "2023-10",
+   "levering_incl": 0.6609,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 75.13,
+   "levering_excl": 0.5462,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 62.09
+  },
+  {
+   "maand": "2023-11",
+   "levering_incl": 0.6834,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 74.21,
+   "levering_excl": 0.5648,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 61.33
+  },
+  {
+   "maand": "2023-12",
+   "levering_incl": 0.6927,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.59266,
+   "transport_incl": 217.69,
+   "vastrecht_incl": 74.62,
+   "levering_excl": 0.5725,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.4898,
+   "transport_excl": 179.91,
+   "vastrecht_excl": 61.67
+  },
+  {
+   "maand": "2024-01",
+   "levering_incl": 0.698,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 73.85,
+   "levering_excl": 0.5769,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 61.03
+  },
+  {
+   "maand": "2024-02",
+   "levering_incl": 0.6896,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 74.42,
+   "levering_excl": 0.57,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 61.5
+  },
+  {
+   "maand": "2024-03",
+   "levering_incl": 0.6769,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 75.23,
+   "levering_excl": 0.5594,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 62.17
+  },
+  {
+   "maand": "2024-04",
+   "levering_incl": 0.6381,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 75.85,
+   "levering_excl": 0.5274,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 62.69
+  },
+  {
+   "maand": "2024-05",
+   "levering_incl": 0.5904,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 77.83,
+   "levering_excl": 0.488,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 64.32
+  },
+  {
+   "maand": "2024-06",
+   "levering_incl": 0.5859,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 78.49,
+   "levering_excl": 0.4842,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 64.87
+  },
+  {
+   "maand": "2024-07",
+   "levering_incl": 0.5752,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 79.63,
+   "levering_excl": 0.4754,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 65.81
+  },
+  {
+   "maand": "2024-08",
+   "levering_incl": 0.587,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 81.13,
+   "levering_excl": 0.4851,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 67.05
+  },
+  {
+   "maand": "2024-09",
+   "levering_incl": 0.588,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 81.49,
+   "levering_excl": 0.486,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 67.35
+  },
+  {
+   "maand": "2024-10",
+   "levering_incl": 0.6097,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 81.86,
+   "levering_excl": 0.5039,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 67.65
+  },
+  {
+   "maand": "2024-11",
+   "levering_incl": 0.6224,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 82.27,
+   "levering_excl": 0.5144,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 68
+  },
+  {
+   "maand": "2024-12",
+   "levering_incl": 0.6222,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.70544,
+   "transport_incl": 232.39,
+   "vastrecht_incl": 82.68,
+   "levering_excl": 0.5142,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.58301,
+   "transport_excl": 192.06,
+   "vastrecht_excl": 68.33
+  },
+  {
+   "maand": "2025-01",
+   "levering_incl": 0.6332,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 84.79,
+   "levering_excl": 0.5233,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 70.08
+  },
+  {
+   "maand": "2025-02",
+   "levering_incl": 0.6454,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 87.56,
+   "levering_excl": 0.5334,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 72.36
+  },
+  {
+   "maand": "2025-03",
+   "levering_incl": 0.6494,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 87.8,
+   "levering_excl": 0.5367,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 72.57
+  },
+  {
+   "maand": "2025-04",
+   "levering_incl": 0.6596,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 89.45,
+   "levering_excl": 0.5451,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 73.92
+  },
+  {
+   "maand": "2025-05",
+   "levering_incl": 0.6595,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 90.34,
+   "levering_excl": 0.545,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 74.66
+  },
+  {
+   "maand": "2025-06",
+   "levering_incl": 0.6563,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 90.48,
+   "levering_excl": 0.5424,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 74.78
+  },
+  {
+   "maand": "2025-07",
+   "levering_incl": 0.6447,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 90.86,
+   "levering_excl": 0.5328,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 75.09
+  },
+  {
+   "maand": "2025-08",
+   "levering_incl": 0.6286,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 91.01,
+   "levering_excl": 0.5195,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 75.22
+  },
+  {
+   "maand": "2025-09",
+   "levering_incl": 0.6269,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 91.16,
+   "levering_excl": 0.5181,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 75.34
+  },
+  {
+   "maand": "2025-10",
+   "levering_incl": 0.6126,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 91.36,
+   "levering_excl": 0.5062,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 75.51
+  },
+  {
+   "maand": "2025-11",
+   "levering_incl": 0.6058,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 91.5,
+   "levering_excl": 0.5007,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 75.62
+  },
+  {
+   "maand": "2025-12",
+   "levering_incl": 0.601,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.69957,
+   "transport_incl": 247.55,
+   "vastrecht_incl": 91.57,
+   "levering_excl": 0.4967,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.57816,
+   "transport_excl": 204.59,
+   "vastrecht_excl": 75.68
+  },
+  {
+   "maand": "2026-01",
+   "levering_incl": 0.5868,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.32,
+   "levering_excl": 0.485,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.3
+  },
+  {
+   "maand": "2026-02",
+   "levering_incl": 0.5767,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.36,
+   "levering_excl": 0.4766,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.33
+  },
+  {
+   "maand": "2026-03",
+   "levering_incl": 0.5737,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.43,
+   "levering_excl": 0.4741,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.39
+  },
+  {
+   "maand": "2026-04",
+   "levering_incl": 0.5641,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.55,
+   "levering_excl": 0.4662,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.49
+  },
+  {
+   "maand": "2026-05",
+   "levering_incl": 0.5783,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.61,
+   "levering_excl": 0.4779,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.54
+  },
+  {
+   "maand": "2026-06",
+   "levering_incl": 0.5852,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.66,
+   "levering_excl": 0.4837,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.58
+  },
+  {
+   "maand": "2026-07",
+   "levering_incl": 0.6277,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.87,
+   "levering_excl": 0.5187,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.75
+  },
+  {
+   "maand": "2026-08",
+   "levering_incl": 0.6526,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 92.95,
+   "levering_excl": 0.5394,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.82
+  },
+  {
+   "maand": "2026-09",
+   "levering_incl": 0.6618,
+   "ode_incl": 0,
+   "energiebelasting_incl": 0.7268,
+   "transport_incl": 268.37,
+   "vastrecht_incl": 93.05,
+   "levering_excl": 0.547,
+   "ode_excl": 0,
+   "energiebelasting_excl": 0.60066,
+   "transport_excl": 221.79,
+   "vastrecht_excl": 76.9
+  }
+ ],
+ "cbs_stroom": null,
+ "ttf_dag": null,
+ "ttf_maand": [
+  {
+   "maand": "2022-01",
+   "ttf": 115.9
+  },
+  {
+   "maand": "2022-02",
+   "ttf": 84.505
+  },
+  {
+   "maand": "2022-03",
+   "ttf": 80.983
+  },
+  {
+   "maand": "2022-04",
+   "ttf": 130.102
+  },
+  {
+   "maand": "2022-05",
+   "ttf": 103.236
+  },
+  {
+   "maand": "2022-06",
+   "ttf": 94.347
+  },
+  {
+   "maand": "2022-07",
+   "ttf": 106.22
+  },
+  {
+   "maand": "2022-08",
+   "ttf": 169.786
+  },
+  {
+   "maand": "2022-09",
+   "ttf": 233.676
+  },
+  {
+   "maand": "2022-10",
+   "ttf": 205.5
+  },
+  {
+   "maand": "2022-11",
+   "ttf": 138.568
+  },
+  {
+   "maand": "2022-12",
+   "ttf": 118.362
+  },
+  {
+   "maand": "2023-01",
+   "ttf": 119.365
+  },
+  {
+   "maand": "2023-02",
+   "ttf": 64.539
+  },
+  {
+   "maand": "2023-03",
+   "ttf": 53.211
+  },
+  {
+   "maand": "2023-04",
+   "ttf": 44.013
+  },
+  {
+   "maand": "2023-05",
+   "ttf": 42.544
+  },
+  {
+   "maand": "2023-06",
+   "ttf": 31.951
+  },
+  {
+   "maand": "2023-07",
+   "ttf": 32.139
+  },
+  {
+   "maand": "2023-08",
+   "ttf": 29.894
+  },
+  {
+   "maand": "2023-09",
+   "ttf": 34.723
+  },
+  {
+   "maand": "2023-10",
+   "ttf": 36.567
+  },
+  {
+   "maand": "2023-11",
+   "ttf": 46.718
+  },
+  {
+   "maand": "2023-12",
+   "ttf": 46.014
+  },
+  {
+   "maand": "2024-01",
+   "ttf": 36.644
+  },
+  {
+   "maand": "2024-02",
+   "ttf": 29.999
+  },
+  {
+   "maand": "2024-03",
+   "ttf": 26.028
+  },
+  {
+   "maand": "2024-04",
+   "ttf": 26.754
+  },
+  {
+   "maand": "2024-05",
+   "ttf": 28.897
+  },
+  {
+   "maand": "2024-06",
+   "ttf": 31.859
+  },
+  {
+   "maand": "2024-07",
+   "ttf": 34.453
+  },
+  {
+   "maand": "2024-08",
+   "ttf": 32.494
+  },
+  {
+   "maand": "2024-09",
+   "ttf": 38.174
+  },
+  {
+   "maand": "2024-10",
+   "ttf": 36.24
+  },
+  {
+   "maand": "2024-11",
+   "ttf": 40.338
+  },
+  {
+   "maand": "2024-12",
+   "ttf": 44.359
+  },
+  {
+   "maand": "2025-01",
+   "ttf": 45.058
+  },
+  {
+   "maand": "2025-02",
+   "ttf": 48.14
+  },
+  {
+   "maand": "2025-03",
+   "ttf": 50.7
+  },
+  {
+   "maand": "2025-04",
+   "ttf": 41.96
+  },
+  {
+   "maand": "2025-05",
+   "ttf": 35.622
+  },
+  {
+   "maand": "2025-06",
+   "ttf": 35.34
+  },
+  {
+   "maand": "2025-07",
+   "ttf": 36.697
+  },
+  {
+   "maand": "2025-08",
+   "ttf": 33.847
+  },
+  {
+   "maand": "2025-09",
+   "ttf": 32.869
+  },
+  {
+   "maand": "2025-10",
+   "ttf": 32.343
+  },
+  {
+   "maand": "2025-11",
+   "ttf": 31.946
+  },
+  {
+   "maand": "2025-12",
+   "ttf": 30.884
+  },
+  {
+   "maand": "2026-01",
+   "ttf": 27.645
+  },
+  {
+   "maand": "2026-02",
+   "ttf": 33.622
+  },
+  {
+   "maand": "2026-03",
+   "ttf": 32.751
+  },
+  {
+   "maand": "2026-04",
+   "ttf": 52.015
+  },
+  {
+   "maand": "2026-05",
+   "ttf": 44.988
+  },
+  {
+   "maand": "2026-06",
+   "ttf": 47.295
+  },
+  {
+   "maand": "2026-07",
+   "ttf": 45.072
+  },
+  {
+   "maand": "2026-08",
+   "ttf": 53.338
+  },
+  {
+   "maand": "2026-09",
+   "ttf": 61.588
+  },
+  {
+   "maand": "2026-10",
+   "ttf": 75.248
+  },
+  {
+   "maand": "2026-11",
+   "ttf": 85.305
+  }
+ ],
+ "ttf_termijn": [
+  {
+   "maand": "2026-12",
+   "ttf": 84.0,
+   "bron": "TTF-niveau 4 nov 2026 na verkiezingsdip (VRT NWS)"
+  },
+  {
+   "maand": "2027-01",
+   "ttf": 88.0,
+   "bron": "Mediaan Q1-2027 (Global Strategy Files, okt 2026)"
+  },
+  {
+   "maand": "2027-02",
+   "ttf": 88.0,
+   "bron": "Mediaan Q1-2027 (Global Strategy Files, okt 2026)"
+  },
+  {
+   "maand": "2027-03",
+   "ttf": 88.0,
+   "bron": "Mediaan Q1-2027 (Global Strategy Files, okt 2026)"
+  },
+  {
+   "maand": "2027-04",
+   "ttf": 65.0,
+   "bron": "Termijnmarkt zomer 2027, ICE Endex 20 okt 2026 (via Energievergelijk.nl)"
+  },
+  {
+   "maand": "2027-05",
+   "ttf": 65.0,
+   "bron": "Termijnmarkt zomer 2027, ICE Endex 20 okt 2026 (via Energievergelijk.nl)"
+  },
+  {
+   "maand": "2027-06",
+   "ttf": 65.0,
+   "bron": "Termijnmarkt zomer 2027, ICE Endex 20 okt 2026 (via Energievergelijk.nl)"
+  },
+  {
+   "maand": "2027-07",
+   "ttf": 65.0,
+   "bron": "Termijnmarkt zomer 2027, ICE Endex 20 okt 2026 (via Energievergelijk.nl)"
+  },
+  {
+   "maand": "2027-08",
+   "ttf": 65.0,
+   "bron": "Termijnmarkt zomer 2027, ICE Endex 20 okt 2026 (via Energievergelijk.nl)"
+  },
+  {
+   "maand": "2027-09",
+   "ttf": 65.0,
+   "bron": "Termijnmarkt zomer 2027, ICE Endex 20 okt 2026 (via Energievergelijk.nl)"
+  }
+ ],
+ "acm_mediaan": [
+  {
+   "maand": "2025-11",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.276,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2025-12",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.254,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-01",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.252,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-02",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.273,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-03",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.271,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-04",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.476,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-05",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.39,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-06",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.412,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-07",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.387,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-08",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.438,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-09",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.514,
+   "meting": "afgelezen uit grafiek"
+  },
+  {
+   "maand": "2026-10",
+   "contract": "Vast ≥ 2 jaar",
+   "prijs": 1.59,
+   "meting": "kaartwaarde"
+  },
+  {
+   "maand": "2026-10",
+   "contract": "Modelcontract",
+   "prijs": 1.71,
+   "meting": "kaartwaarde"
+  },
+  {
+   "maand": "2026-10",
+   "contract": "Variabel",
+   "prijs": 1.5,
+   "meting": "kaartwaarde"
+  },
+  {
+   "maand": "2026-10",
+   "contract": "Vast ≤ 1 jaar",
+   "prijs": 1.71,
+   "meting": "kaartwaarde"
+  }
+ ],
+ "leveranciers": [
+  {
+   "id": "Budget Thuis · Variabel",
+   "leverancier": "Budget Thuis",
+   "contract": "Variabel",
+   "gasprijs": 1.997,
+   "stroomprijs": 0.413,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Budget Thuis · Vast 1 jaar",
+   "leverancier": "Budget Thuis",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.937,
+   "stroomprijs": 0.339,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Budget Thuis · Vast 3 jaar",
+   "leverancier": "Budget Thuis",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.74,
+   "stroomprijs": 0.298,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Coolblue · Vast 1 jaar",
+   "leverancier": "Coolblue",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.946,
+   "stroomprijs": 0.347,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Coolblue · Vast 3 jaar",
+   "leverancier": "Coolblue",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.783,
+   "stroomprijs": 0.298,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Delta Energie · Vast 1 jaar",
+   "leverancier": "Delta Energie",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.907,
+   "stroomprijs": 0.33,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Delta Energie · Vast 3 jaar",
+   "leverancier": "Delta Energie",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.764,
+   "stroomprijs": 0.31,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Eneco · Variabel",
+   "leverancier": "Eneco",
+   "contract": "Variabel",
+   "gasprijs": 2.109,
+   "stroomprijs": 0.422,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Eneco · Vast 1 jaar",
+   "leverancier": "Eneco",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.959,
+   "stroomprijs": 0.351,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Eneco · Vast 3 jaar",
+   "leverancier": "Eneco",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.769,
+   "stroomprijs": 0.302,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Energie VanOns · Vast 1 jaar",
+   "leverancier": "Energie VanOns",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.983,
+   "stroomprijs": 0.364,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Energie VanOns · Vast 3 jaar",
+   "leverancier": "Energie VanOns",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.747,
+   "stroomprijs": 0.293,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Energiedirect · Variabel",
+   "leverancier": "Energiedirect",
+   "contract": "Variabel",
+   "gasprijs": 1.834,
+   "stroomprijs": 0.38,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Energiedirect · Vast 1 jaar",
+   "leverancier": "Energiedirect",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.905,
+   "stroomprijs": 0.346,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Energiedirect · Vast 2 jaar",
+   "leverancier": "Energiedirect",
+   "contract": "Vast 2 jaar",
+   "gasprijs": 1.861,
+   "stroomprijs": 0.317,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Energiedirect · Vast 3 jaar",
+   "leverancier": "Energiedirect",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.811,
+   "stroomprijs": 0.299,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Engie · Variabel",
+   "leverancier": "Engie",
+   "contract": "Variabel",
+   "gasprijs": 1.948,
+   "stroomprijs": 0.35,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Engie · Vast 1 jaar",
+   "leverancier": "Engie",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.926,
+   "stroomprijs": 0.334,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Engie · Vast 2 jaar",
+   "leverancier": "Engie",
+   "contract": "Vast 2 jaar",
+   "gasprijs": 1.841,
+   "stroomprijs": 0.304,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Engie · Vast 3 jaar",
+   "leverancier": "Engie",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.78,
+   "stroomprijs": 0.292,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Essent · Variabel",
+   "leverancier": "Essent",
+   "contract": "Variabel",
+   "gasprijs": 1.852,
+   "stroomprijs": 0.387,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Essent · Vast 1 jaar",
+   "leverancier": "Essent",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.941,
+   "stroomprijs": 0.368,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Essent · Vast 3 jaar",
+   "leverancier": "Essent",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.876,
+   "stroomprijs": 0.35,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Gewoon Energie · Vast 1 jaar",
+   "leverancier": "Gewoon Energie",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.876,
+   "stroomprijs": 0.347,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Gewoon Energie · Vast 2 jaar",
+   "leverancier": "Gewoon Energie",
+   "contract": "Vast 2 jaar",
+   "gasprijs": 1.772,
+   "stroomprijs": 0.319,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Gewoon Energie · Vast 3 jaar",
+   "leverancier": "Gewoon Energie",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.676,
+   "stroomprijs": 0.301,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Greenchoice · Variabel",
+   "leverancier": "Greenchoice",
+   "contract": "Variabel",
+   "gasprijs": 1.817,
+   "stroomprijs": 0.38,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Greenchoice · Vast 1 jaar",
+   "leverancier": "Greenchoice",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.96,
+   "stroomprijs": 0.342,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Greenchoice · Vast 2 jaar",
+   "leverancier": "Greenchoice",
+   "contract": "Vast 2 jaar",
+   "gasprijs": 1.874,
+   "stroomprijs": 0.319,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Greenchoice · Vast 3 jaar",
+   "leverancier": "Greenchoice",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.811,
+   "stroomprijs": 0.333,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Innova Energie · Vast 1 jaar",
+   "leverancier": "Innova Energie",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.876,
+   "stroomprijs": 0.347,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Innova Energie · Vast 2 jaar",
+   "leverancier": "Innova Energie",
+   "contract": "Vast 2 jaar",
+   "gasprijs": 1.772,
+   "stroomprijs": 0.319,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Innova Energie · Vast 3 jaar",
+   "leverancier": "Innova Energie",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.676,
+   "stroomprijs": 0.301,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Mega · Variabel",
+   "leverancier": "Mega",
+   "contract": "Variabel",
+   "gasprijs": 1.891,
+   "stroomprijs": 0.422,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Mega · Vast 1 jaar",
+   "leverancier": "Mega",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 2.119,
+   "stroomprijs": 0.396,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Mega · Vast 2 jaar",
+   "leverancier": "Mega",
+   "contract": "Vast 2 jaar",
+   "gasprijs": 1.971,
+   "stroomprijs": 0.363,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Mega · Vast 3 jaar",
+   "leverancier": "Mega",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.84,
+   "stroomprijs": 0.339,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "OM · Variabel",
+   "leverancier": "OM",
+   "contract": "Variabel",
+   "gasprijs": 1.751,
+   "stroomprijs": 0.37,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "OM · Vast 1 jaar",
+   "leverancier": "OM",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.983,
+   "stroomprijs": 0.364,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "OM · Vast 3 jaar",
+   "leverancier": "OM",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.747,
+   "stroomprijs": 0.293,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Oxxio · Vast 1 jaar",
+   "leverancier": "Oxxio",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.926,
+   "stroomprijs": 0.336,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Oxxio · Vast 3 jaar",
+   "leverancier": "Oxxio",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.769,
+   "stroomprijs": 0.29,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Powerpeers · Vast 1 jaar",
+   "leverancier": "Powerpeers",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.982,
+   "stroomprijs": 0.366,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Pure Energie · Variabel",
+   "leverancier": "Pure Energie",
+   "contract": "Variabel",
+   "gasprijs": 2.0,
+   "stroomprijs": null,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Pure Energie · Vast 1 jaar",
+   "leverancier": "Pure Energie",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 2.002,
+   "stroomprijs": null,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "UnitedConsumers · Vast 1 jaar",
+   "leverancier": "UnitedConsumers",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 2.044,
+   "stroomprijs": 0.347,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "UnitedConsumers · Vast 3 jaar",
+   "leverancier": "UnitedConsumers",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.819,
+   "stroomprijs": 0.295,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Vandebron · Variabel",
+   "leverancier": "Vandebron",
+   "contract": "Variabel",
+   "gasprijs": 2.036,
+   "stroomprijs": 0.398,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Vandebron · Vast 1 jaar",
+   "leverancier": "Vandebron",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.94,
+   "stroomprijs": 0.331,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Vandebron · Vast 2 jaar",
+   "leverancier": "Vandebron",
+   "contract": "Vast 2 jaar",
+   "gasprijs": 1.845,
+   "stroomprijs": 0.304,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Vandebron · Vast 3 jaar",
+   "leverancier": "Vandebron",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.761,
+   "stroomprijs": 0.287,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Vattenfall · Variabel",
+   "leverancier": "Vattenfall",
+   "contract": "Variabel",
+   "gasprijs": 1.714,
+   "stroomprijs": 0.328,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Vattenfall · Vast 1 jaar",
+   "leverancier": "Vattenfall",
+   "contract": "Vast 1 jaar",
+   "gasprijs": 1.953,
+   "stroomprijs": 0.345,
+   "peildatum": "2026-11-04"
+  },
+  {
+   "id": "Vattenfall · Vast 3 jaar",
+   "leverancier": "Vattenfall",
+   "contract": "Vast 3 jaar",
+   "gasprijs": 1.803,
+   "stroomprijs": 0.328,
+   "peildatum": "2026-11-04"
+  }
+ ],
+ "nieuws": [
+  {
+   "datum": "2026-11-10",
+   "titel": "INES-update over de gasopslag",
+   "samenvatting": "Volgende ijkpunt voor de winterbalans: analisten zien deze update als test voor de vraag of de wintercontracten verder kunnen dalen.",
+   "bron": "The Traders Spread",
+   "url": "https://thetradersspread.com/commodities/ttf-gas-price-prediction-92-bull-46-bear",
+   "richting": "agenda",
+   "ttf": null
+  },
+  {
+   "datum": "2026-11-04",
+   "titel": "Gasprijs zakt na verkiezingsnederlaag Trump",
+   "samenvatting": "Brent daalt 10% naar ruim 93 dollar; de TTF zakt tot net boven €84/MWh. Handelaren rekenen op de-escalatie rond Iran nu de Republikeinen hun Congresmeerderheid kwijt zijn.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+   "richting": "omlaag",
+   "ttf": 84
+  },
+  {
+   "datum": "2026-11-04",
+   "titel": "Democraten winnen het Congres",
+   "samenvatting": "Hoge kosten van levensonderhoud, waaronder brandstof, speelden volgens exitpolls een grote rol. Of prijzen blijvend dalen hangt vooral af van het conflict met Iran.",
+   "bron": "TopGear.nl",
+   "url": "https://topgear.nl/autonieuws/benzineprijs-amerikaanse-verkiezingen-trump-congres-goedkoper-tanken/",
+   "richting": "neutraal",
+   "ttf": null
+  },
+  {
+   "datum": "2026-11-02",
+   "titel": "TTF terug naar ±€101 na rally van 30% in oktober",
+   "samenvatting": "Winstnemingen na de oktoberpiek boven €104. Analisten zien geen structurele ontspanning: de Europese voorraden blijven ongewoon laag.",
+   "bron": "Capmad",
+   "url": "https://www.capmad.com/post/ttf-slips-back-to-101mwh-after-a-30-october-rally",
+   "richting": "omlaag",
+   "ttf": 101
+  },
+  {
+   "datum": "2026-11-02",
+   "titel": "Europese gasprijs onder €100 door diplomatie-signalen",
+   "samenvatting": "Trump wil volgens Axios de diplomatie met Iran meer tijd geven; de TTF zakt in de middag naar ruim €98/MWh.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+   "richting": "omlaag",
+   "ttf": 98.1
+  },
+  {
+   "datum": "2026-10-30",
+   "titel": "TTF boven €103, hoogste sinds december 2022",
+   "samenvatting": "Na een korte terugval stijgt de groothandelsprijs weer ruim boven de €100/MWh.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+   "richting": "omhoog",
+   "ttf": 103
+  },
+  {
+   "datum": "2026-10-28",
+   "titel": "Gasprijs voor het eerst sinds 2022 boven €100",
+   "samenvatting": "Angst voor nieuwe escalatie: volgens de WSJ zijn Golfstaten gewaarschuwd voor een mogelijke Amerikaanse campagne na de verkiezingen.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+   "richting": "omhoog",
+   "ttf": 100
+  },
+  {
+   "datum": "2026-09-22",
+   "titel": "Beursprijs 16% lager, leveranciers verlagen vaste tarieven",
+   "samenvatting": "Na de piek half september dalen nieuwe vaste contracten bij onder meer Energiedirect en Essent met 13–20 cent per m³.",
+   "bron": "Energievergelijk.nl",
+   "url": "https://www.energievergelijk.nl/nieuws/gasprijs-op-de-beurs-16-omlaag-deze-leveranciers-verlaagden-hun-tarieven-al",
+   "richting": "omlaag",
+   "ttf": 69.18
+  },
+  {
+   "datum": "2026-08-26",
+   "titel": "Nederland haalt vuldoel gasopslag niet",
+   "samenvatting": "Gasunie verwacht geen tekorten, maar wel hogere prijzen; de Nederlandse opslag was op dat moment voor ruim 45% gevuld.",
+   "bron": "VRT NWS / Gasunie",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/olieprijs-zakt-onder-kaap-van-100-dollar-na-opdoffer-voor-partij~1774343778229",
+   "richting": "omhoog",
+   "ttf": null
+  }
+ ],
+ "belasting": {
+  "gas": [
+   {
+    "jaar": 2026,
+    "eb_excl": 0.60066,
+    "status": "aangenomen",
+    "bron": "Belastingplan 2026 / CBS 85592NED"
+   },
+   {
+    "jaar": 2027,
+    "eb_excl": 0.6163,
+    "status": "voorstel",
+    "bron": "Belastingplan 2027 (wetsvoorstel 37022, gecorrigeerd tarief)"
+   }
+  ],
+  "netbeheer_stijging_2027_gas": {
+   "bedrag_per_jaar": 52,
+   "bron": "ACM-raming, 14 sep 2026"
+  },
+  "btw": 0.21
+ },
+ "wijzigingslog": []
+}
