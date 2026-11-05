@@ -1,13 +1,13 @@
 {
  "versie": 1,
- "gegenereerd": "2026-11-05T13:32:29Z",
+ "gegenereerd": "2026-11-05T14:01:20Z",
  "bronnen": {
   "cbs": {
    "naam": "CBS StatLine 85592NED",
    "url": "https://opendata.cbs.nl/ODataApi/OData/85592NED",
    "rijen": 57,
    "laatste_periode": "2026-09",
-   "bijgewerkt": "2026-11-05T07:59:23Z",
+   "bijgewerkt": "2026-11-05T14:01:18Z",
    "schema": "maandelijks, rond de 2e donderdag",
    "status": "ok",
    "melding": null
@@ -17,7 +17,7 @@
    "url": "data/manual/ttf_termijn.json",
    "rijen": 10,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "bijgewerkt": "2026-11-05T14:00:58Z",
    "schema": "bij grote marktbewegingen",
    "status": "ok",
    "melding": null
@@ -27,7 +27,7 @@
    "url": "data/manual/acm_mediaan_gas.json",
    "rijen": 15,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "bijgewerkt": "2026-11-05T14:00:58Z",
    "schema": "maandelijks, rond het midden van de maand",
    "status": "ok",
    "melding": null
@@ -37,7 +37,7 @@
    "url": "data/manual/leveranciers_gas.json",
    "rijen": 54,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "bijgewerkt": "2026-11-05T14:00:58Z",
    "schema": "wekelijks",
    "status": "ok",
    "melding": null
@@ -47,7 +47,7 @@
    "url": "data/manual/nieuws.json",
    "rijen": 9,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-05T13:31:22Z",
+   "bijgewerkt": "2026-11-05T14:00:58Z",
    "schema": "wekelijks",
    "status": "ok",
    "melding": null
@@ -57,8 +57,18 @@
    "url": "data/manual/belasting.json",
    "rijen": 1,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-05T13:32:21Z",
+   "bijgewerkt": "2026-11-05T14:00:58Z",
    "schema": "jaarlijks, na stemming Eerste Kamer",
+   "status": "ok",
+   "melding": null
+  },
+  "ttf_dag": {
+   "naam": "TTF front-month slotkoers (Yahoo Finance TTF=F)",
+   "url": "https://finance.yahoo.com/quote/TTF%3DF",
+   "rijen": 277,
+   "laatste_periode": "2026-11-05",
+   "bijgewerkt": "2026-11-05T14:01:20Z",
+   "schema": "dagelijks op werkdagen",
    "status": "ok",
    "melding": null
   }
@@ -66,748 +76,2941 @@
  "cbs_gas": [
   {
    "maand": "2022-01",
+   "transport_incl": 191.33,
+   "vastrecht_incl": 71.11,
    "levering_incl": 0.5036,
    "ode_incl": 0.10467,
    "energiebelasting_incl": 0.4395,
-   "transport_incl": 191.33,
-   "vastrecht_incl": 71.11,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 58.77,
    "levering_excl": 0.4162,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 58.77
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-02",
+   "transport_incl": 191.33,
+   "vastrecht_incl": 71.69,
    "levering_incl": 0.5493,
    "ode_incl": 0.10467,
    "energiebelasting_incl": 0.4395,
-   "transport_incl": 191.33,
-   "vastrecht_incl": 71.69,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.25,
    "levering_excl": 0.4539,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 59.25
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-03",
+   "transport_incl": 191.33,
+   "vastrecht_incl": 71.97,
    "levering_incl": 0.5696,
    "ode_incl": 0.10467,
    "energiebelasting_incl": 0.4395,
-   "transport_incl": 191.33,
-   "vastrecht_incl": 71.97,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.48,
    "levering_excl": 0.4708,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 59.48
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-04",
+   "transport_incl": 191.33,
+   "vastrecht_incl": 72.18,
    "levering_incl": 0.6307,
    "ode_incl": 0.10467,
    "energiebelasting_incl": 0.4395,
-   "transport_incl": 191.33,
-   "vastrecht_incl": 72.18,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.66,
    "levering_excl": 0.5212,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 59.66
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-05",
+   "transport_incl": 191.33,
+   "vastrecht_incl": 72.43,
    "levering_incl": 0.6716,
    "ode_incl": 0.10467,
    "energiebelasting_incl": 0.4395,
-   "transport_incl": 191.33,
-   "vastrecht_incl": 72.43,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.86,
    "levering_excl": 0.5551,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 59.86
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-06",
+   "transport_incl": 191.33,
+   "vastrecht_incl": 72.62,
    "levering_incl": 0.6928,
    "ode_incl": 0.10467,
    "energiebelasting_incl": 0.4395,
-   "transport_incl": 191.33,
-   "vastrecht_incl": 72.62,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.02,
    "levering_excl": 0.5725,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 60.02
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-07",
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.58,
    "levering_incl": 0.7698,
    "ode_incl": 0.09429,
    "energiebelasting_incl": 0.39591,
-   "transport_incl": 172.35,
-   "vastrecht_incl": 65.58,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.16,
    "levering_excl": 0.7062,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 60.16
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-08",
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.71,
    "levering_incl": 0.7975,
    "ode_incl": 0.09429,
    "energiebelasting_incl": 0.39591,
-   "transport_incl": 172.35,
-   "vastrecht_incl": 65.71,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.29,
    "levering_excl": 0.7316,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 60.29
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-09",
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.03,
    "levering_incl": 0.8856,
    "ode_incl": 0.09429,
    "energiebelasting_incl": 0.39591,
-   "transport_incl": 172.35,
-   "vastrecht_incl": 65.03,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 59.66,
    "levering_excl": 0.8124,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 59.66
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-10",
+   "transport_incl": 172.35,
+   "vastrecht_incl": 65.89,
    "levering_incl": 1.0886,
    "ode_incl": 0.09429,
    "energiebelasting_incl": 0.39591,
-   "transport_incl": 172.35,
-   "vastrecht_incl": 65.89,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.45,
    "levering_excl": 0.9987,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 60.45
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-11",
+   "transport_incl": 172.35,
+   "vastrecht_incl": 66.02,
    "levering_incl": 1.4979,
    "ode_incl": 0.09429,
    "energiebelasting_incl": 0.39591,
-   "transport_incl": 172.35,
-   "vastrecht_incl": 66.02,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.57,
    "levering_excl": 1.3742,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 60.57
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2022-12",
+   "transport_incl": 172.35,
+   "vastrecht_incl": 66.08,
    "levering_incl": 1.5162,
    "ode_incl": 0.09429,
    "energiebelasting_incl": 0.39591,
-   "transport_incl": 172.35,
-   "vastrecht_incl": 66.08,
+   "transport_excl": 158.12,
+   "vastrecht_excl": 60.62,
    "levering_excl": 1.391,
    "ode_excl": 0.0865,
-   "energiebelasting_excl": 0.36322,
-   "transport_excl": 158.12,
-   "vastrecht_excl": 60.62
+   "energiebelasting_excl": 0.36322
   },
   {
    "maand": "2023-01",
-   "levering_incl": 1.9961,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 73.47,
-   "levering_excl": 1.6497,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 1.9961,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 60.72
+   "vastrecht_excl": 60.72,
+   "levering_excl": 1.6497,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-02",
-   "levering_incl": 1.8467,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 73.53,
-   "levering_excl": 1.5262,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 1.8467,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 60.77
+   "vastrecht_excl": 60.77,
+   "levering_excl": 1.5262,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-03",
-   "levering_incl": 1.7209,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 73.6,
-   "levering_excl": 1.4222,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 1.7209,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 60.82
+   "vastrecht_excl": 60.82,
+   "levering_excl": 1.4222,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-04",
-   "levering_incl": 1.1846,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 73.68,
-   "levering_excl": 0.979,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 1.1846,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 60.89
+   "vastrecht_excl": 60.89,
+   "levering_excl": 0.979,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-05",
-   "levering_incl": 0.952,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 73.75,
-   "levering_excl": 0.7868,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.952,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 60.95
+   "vastrecht_excl": 60.95,
+   "levering_excl": 0.7868,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-06",
-   "levering_incl": 0.8902,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 73.81,
-   "levering_excl": 0.7357,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.8902,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 61
+   "vastrecht_excl": 61,
+   "levering_excl": 0.7357,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-07",
-   "levering_incl": 0.6951,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 74.67,
-   "levering_excl": 0.5745,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.6951,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 61.71
+   "vastrecht_excl": 61.71,
+   "levering_excl": 0.5745,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-08",
-   "levering_incl": 0.6697,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 75.02,
-   "levering_excl": 0.5535,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.6697,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 62
+   "vastrecht_excl": 62,
+   "levering_excl": 0.5535,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-09",
-   "levering_incl": 0.6683,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 75.44,
-   "levering_excl": 0.5523,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.6683,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 62.34
+   "vastrecht_excl": 62.34,
+   "levering_excl": 0.5523,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-10",
-   "levering_incl": 0.6609,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 75.13,
-   "levering_excl": 0.5462,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.6609,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 62.09
+   "vastrecht_excl": 62.09,
+   "levering_excl": 0.5462,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-11",
-   "levering_incl": 0.6834,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 74.21,
-   "levering_excl": 0.5648,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.6834,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 61.33
+   "vastrecht_excl": 61.33,
+   "levering_excl": 0.5648,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2023-12",
-   "levering_incl": 0.6927,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.59266,
    "transport_incl": 217.69,
    "vastrecht_incl": 74.62,
-   "levering_excl": 0.5725,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.4898,
+   "levering_incl": 0.6927,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.59266,
    "transport_excl": 179.91,
-   "vastrecht_excl": 61.67
+   "vastrecht_excl": 61.67,
+   "levering_excl": 0.5725,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.4898
   },
   {
    "maand": "2024-01",
-   "levering_incl": 0.698,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 73.85,
-   "levering_excl": 0.5769,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.698,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 61.03
+   "vastrecht_excl": 61.03,
+   "levering_excl": 0.5769,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-02",
-   "levering_incl": 0.6896,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 74.42,
-   "levering_excl": 0.57,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.6896,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 61.5
+   "vastrecht_excl": 61.5,
+   "levering_excl": 0.57,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-03",
-   "levering_incl": 0.6769,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 75.23,
-   "levering_excl": 0.5594,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.6769,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 62.17
+   "vastrecht_excl": 62.17,
+   "levering_excl": 0.5594,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-04",
-   "levering_incl": 0.6381,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 75.85,
-   "levering_excl": 0.5274,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.6381,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 62.69
+   "vastrecht_excl": 62.69,
+   "levering_excl": 0.5274,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-05",
-   "levering_incl": 0.5904,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 77.83,
-   "levering_excl": 0.488,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.5904,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 64.32
+   "vastrecht_excl": 64.32,
+   "levering_excl": 0.488,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-06",
-   "levering_incl": 0.5859,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 78.49,
-   "levering_excl": 0.4842,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.5859,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 64.87
+   "vastrecht_excl": 64.87,
+   "levering_excl": 0.4842,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-07",
-   "levering_incl": 0.5752,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 79.63,
-   "levering_excl": 0.4754,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.5752,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 65.81
+   "vastrecht_excl": 65.81,
+   "levering_excl": 0.4754,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-08",
-   "levering_incl": 0.587,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 81.13,
-   "levering_excl": 0.4851,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.587,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 67.05
+   "vastrecht_excl": 67.05,
+   "levering_excl": 0.4851,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-09",
-   "levering_incl": 0.588,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 81.49,
-   "levering_excl": 0.486,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.588,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 67.35
+   "vastrecht_excl": 67.35,
+   "levering_excl": 0.486,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-10",
-   "levering_incl": 0.6097,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 81.86,
-   "levering_excl": 0.5039,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.6097,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 67.65
+   "vastrecht_excl": 67.65,
+   "levering_excl": 0.5039,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-11",
-   "levering_incl": 0.6224,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 82.27,
-   "levering_excl": 0.5144,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.6224,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 68
+   "vastrecht_excl": 68,
+   "levering_excl": 0.5144,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2024-12",
-   "levering_incl": 0.6222,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.70544,
    "transport_incl": 232.39,
    "vastrecht_incl": 82.68,
-   "levering_excl": 0.5142,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.58301,
+   "levering_incl": 0.6222,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.70544,
    "transport_excl": 192.06,
-   "vastrecht_excl": 68.33
+   "vastrecht_excl": 68.33,
+   "levering_excl": 0.5142,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.58301
   },
   {
    "maand": "2025-01",
-   "levering_incl": 0.6332,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 84.79,
-   "levering_excl": 0.5233,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6332,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 70.08
+   "vastrecht_excl": 70.08,
+   "levering_excl": 0.5233,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-02",
-   "levering_incl": 0.6454,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 87.56,
-   "levering_excl": 0.5334,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6454,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 72.36
+   "vastrecht_excl": 72.36,
+   "levering_excl": 0.5334,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-03",
-   "levering_incl": 0.6494,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 87.8,
-   "levering_excl": 0.5367,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6494,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 72.57
+   "vastrecht_excl": 72.57,
+   "levering_excl": 0.5367,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-04",
-   "levering_incl": 0.6596,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 89.45,
-   "levering_excl": 0.5451,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6596,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 73.92
+   "vastrecht_excl": 73.92,
+   "levering_excl": 0.5451,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-05",
-   "levering_incl": 0.6595,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 90.34,
-   "levering_excl": 0.545,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6595,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 74.66
+   "vastrecht_excl": 74.66,
+   "levering_excl": 0.545,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-06",
-   "levering_incl": 0.6563,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 90.48,
-   "levering_excl": 0.5424,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6563,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 74.78
+   "vastrecht_excl": 74.78,
+   "levering_excl": 0.5424,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-07",
-   "levering_incl": 0.6447,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 90.86,
-   "levering_excl": 0.5328,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6447,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 75.09
+   "vastrecht_excl": 75.09,
+   "levering_excl": 0.5328,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-08",
-   "levering_incl": 0.6286,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 91.01,
-   "levering_excl": 0.5195,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6286,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 75.22
+   "vastrecht_excl": 75.22,
+   "levering_excl": 0.5195,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-09",
-   "levering_incl": 0.6269,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 91.16,
-   "levering_excl": 0.5181,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6269,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 75.34
+   "vastrecht_excl": 75.34,
+   "levering_excl": 0.5181,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-10",
-   "levering_incl": 0.6126,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 91.36,
-   "levering_excl": 0.5062,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6126,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 75.51
+   "vastrecht_excl": 75.51,
+   "levering_excl": 0.5062,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-11",
-   "levering_incl": 0.6058,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 91.5,
-   "levering_excl": 0.5007,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.6058,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 75.62
+   "vastrecht_excl": 75.62,
+   "levering_excl": 0.5007,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2025-12",
-   "levering_incl": 0.601,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.69957,
    "transport_incl": 247.55,
    "vastrecht_incl": 91.57,
-   "levering_excl": 0.4967,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.57816,
+   "levering_incl": 0.601,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.69957,
    "transport_excl": 204.59,
-   "vastrecht_excl": 75.68
+   "vastrecht_excl": 75.68,
+   "levering_excl": 0.4967,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.57816
   },
   {
    "maand": "2026-01",
-   "levering_incl": 0.5868,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.32,
-   "levering_excl": 0.485,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.5868,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.3
+   "vastrecht_excl": 76.3,
+   "levering_excl": 0.485,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-02",
-   "levering_incl": 0.5767,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.36,
-   "levering_excl": 0.4766,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.5767,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.33
+   "vastrecht_excl": 76.33,
+   "levering_excl": 0.4766,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-03",
-   "levering_incl": 0.5737,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.43,
-   "levering_excl": 0.4741,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.5737,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.39
+   "vastrecht_excl": 76.39,
+   "levering_excl": 0.4741,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-04",
-   "levering_incl": 0.5641,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.55,
-   "levering_excl": 0.4662,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.5641,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.49
+   "vastrecht_excl": 76.49,
+   "levering_excl": 0.4662,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-05",
-   "levering_incl": 0.5783,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.61,
-   "levering_excl": 0.4779,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.5783,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.54
+   "vastrecht_excl": 76.54,
+   "levering_excl": 0.4779,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-06",
-   "levering_incl": 0.5852,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.66,
-   "levering_excl": 0.4837,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.5852,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.58
+   "vastrecht_excl": 76.58,
+   "levering_excl": 0.4837,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-07",
-   "levering_incl": 0.6277,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.87,
-   "levering_excl": 0.5187,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.6277,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.75
+   "vastrecht_excl": 76.75,
+   "levering_excl": 0.5187,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-08",
-   "levering_incl": 0.6526,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 92.95,
-   "levering_excl": 0.5394,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.6526,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.82
+   "vastrecht_excl": 76.82,
+   "levering_excl": 0.5394,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   },
   {
    "maand": "2026-09",
-   "levering_incl": 0.6618,
-   "ode_incl": 0,
-   "energiebelasting_incl": 0.7268,
    "transport_incl": 268.37,
    "vastrecht_incl": 93.05,
-   "levering_excl": 0.547,
-   "ode_excl": 0,
-   "energiebelasting_excl": 0.60066,
+   "levering_incl": 0.6618,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.7268,
    "transport_excl": 221.79,
-   "vastrecht_excl": 76.9
+   "vastrecht_excl": 76.9,
+   "levering_excl": 0.547,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.60066
   }
  ],
- "cbs_stroom": null,
- "ttf_dag": null,
+ "cbs_stroom": [
+  {
+   "maand": "2022-01",
+   "transport_incl": 267.12,
+   "vastrecht_incl": 71.11,
+   "levering_incl": 0.1256,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03691,
+   "energiebelasting_incl": 0.04452,
+   "vermindering_eb_incl": -824.77,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 58.77,
+   "levering_excl": 0.1038,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-02",
+   "transport_incl": 267.12,
+   "vastrecht_incl": 71.66,
+   "levering_incl": 0.1377,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03691,
+   "energiebelasting_incl": 0.04452,
+   "vermindering_eb_incl": -824.77,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 59.23,
+   "levering_excl": 0.1138,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-03",
+   "transport_incl": 267.12,
+   "vastrecht_incl": 71.94,
+   "levering_incl": 0.141,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03691,
+   "energiebelasting_incl": 0.04452,
+   "vermindering_eb_incl": -824.77,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 59.45,
+   "levering_excl": 0.1166,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-04",
+   "transport_incl": 267.12,
+   "vastrecht_incl": 72.16,
+   "levering_incl": 0.1546,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03691,
+   "energiebelasting_incl": 0.04452,
+   "vermindering_eb_incl": -824.77,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 59.63,
+   "levering_excl": 0.1278,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-05",
+   "transport_incl": 267.12,
+   "vastrecht_incl": 72.4,
+   "levering_incl": 0.1634,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03691,
+   "energiebelasting_incl": 0.04452,
+   "vermindering_eb_incl": -824.77,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 59.83,
+   "levering_excl": 0.1351,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-06",
+   "transport_incl": 267.12,
+   "vastrecht_incl": 72.59,
+   "levering_incl": 0.1691,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03691,
+   "energiebelasting_incl": 0.04452,
+   "vermindering_eb_incl": -824.77,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 59.99,
+   "levering_excl": 0.1398,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-07",
+   "transport_incl": 240.63,
+   "vastrecht_incl": 65.51,
+   "levering_incl": 0.1793,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03325,
+   "energiebelasting_incl": 0.0401,
+   "vermindering_eb_incl": -742.98,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 60.1,
+   "levering_excl": 0.1645,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-08",
+   "transport_incl": 240.63,
+   "vastrecht_incl": 65.64,
+   "levering_incl": 0.1882,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03325,
+   "energiebelasting_incl": 0.0401,
+   "vermindering_eb_incl": -742.98,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 60.22,
+   "levering_excl": 0.1727,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-09",
+   "transport_incl": 240.63,
+   "vastrecht_incl": 65.74,
+   "levering_incl": 0.2096,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03325,
+   "energiebelasting_incl": 0.0401,
+   "vermindering_eb_incl": -742.98,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 60.31,
+   "levering_excl": 0.1923,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-10",
+   "transport_incl": 240.63,
+   "vastrecht_incl": 65.8,
+   "levering_incl": 0.2592,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03325,
+   "energiebelasting_incl": 0.0401,
+   "vermindering_eb_incl": -742.98,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 60.37,
+   "levering_excl": 0.2378,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-11",
+   "transport_incl": 240.63,
+   "vastrecht_incl": 65.92,
+   "levering_incl": 0.3782,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03325,
+   "energiebelasting_incl": 0.0401,
+   "vermindering_eb_incl": -742.98,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 60.47,
+   "levering_excl": 0.347,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2022-12",
+   "transport_incl": 240.63,
+   "vastrecht_incl": 66.2,
+   "levering_incl": 0.4028,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.03325,
+   "energiebelasting_incl": 0.0401,
+   "vermindering_eb_incl": -742.98,
+   "transport_excl": 220.76,
+   "vastrecht_excl": 60.73,
+   "levering_excl": 0.3695,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0305,
+   "energiebelasting_excl": 0.03679,
+   "vermindering_eb_excl": -681.63
+  },
+  {
+   "maand": "2023-01",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 73.2,
+   "levering_incl": 0.515,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 60.5,
+   "levering_excl": 0.4256,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-02",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 73.26,
+   "levering_incl": 0.4743,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 60.55,
+   "levering_excl": 0.392,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-03",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 73.33,
+   "levering_incl": 0.4307,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 60.6,
+   "levering_excl": 0.356,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-04",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 73.4,
+   "levering_incl": 0.2979,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 60.66,
+   "levering_excl": 0.2462,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-05",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 73.46,
+   "levering_incl": 0.2507,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 60.71,
+   "levering_excl": 0.2072,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-06",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 73.51,
+   "levering_incl": 0.2343,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 60.75,
+   "levering_excl": 0.1936,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-07",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 74.45,
+   "levering_incl": 0.2017,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 61.53,
+   "levering_excl": 0.1667,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-08",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 74.77,
+   "levering_incl": 0.1963,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 61.8,
+   "levering_excl": 0.1622,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-09",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 75.22,
+   "levering_incl": 0.1964,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 62.16,
+   "levering_excl": 0.1623,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-10",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 78.02,
+   "levering_incl": 0.1922,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 64.48,
+   "levering_excl": 0.1588,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-11",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 81.62,
+   "levering_incl": 0.1972,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 67.46,
+   "levering_excl": 0.163,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2023-12",
+   "transport_incl": 342.16,
+   "vastrecht_incl": 81.95,
+   "levering_incl": 0.1994,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.15245,
+   "vermindering_eb_incl": -596.86,
+   "transport_excl": 282.78,
+   "vastrecht_excl": 67.73,
+   "levering_excl": 0.1648,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.12599,
+   "vermindering_eb_excl": -493.27
+  },
+  {
+   "maand": "2024-01",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 89.2,
+   "levering_incl": 0.1998,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 73.72,
+   "levering_excl": 0.1651,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-02",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 89.7,
+   "levering_incl": 0.1988,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 74.13,
+   "levering_excl": 0.1643,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-03",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 90.96,
+   "levering_incl": 0.1936,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 75.17,
+   "levering_excl": 0.16,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-04",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 92.28,
+   "levering_incl": 0.1823,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 76.26,
+   "levering_excl": 0.1507,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-05",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 95.86,
+   "levering_incl": 0.1729,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 79.22,
+   "levering_excl": 0.1429,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-06",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 97.35,
+   "levering_incl": 0.1703,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 80.45,
+   "levering_excl": 0.1407,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-07",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 98.24,
+   "levering_incl": 0.157,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 81.19,
+   "levering_excl": 0.1298,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-08",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 97.71,
+   "levering_incl": 0.1515,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 80.75,
+   "levering_excl": 0.1252,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-09",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 98.65,
+   "levering_incl": 0.1512,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 81.53,
+   "levering_excl": 0.1249,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-10",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 99.57,
+   "levering_incl": 0.1572,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 82.29,
+   "levering_excl": 0.1299,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-11",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 100.28,
+   "levering_incl": 0.1595,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 82.88,
+   "levering_excl": 0.1318,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2024-12",
+   "transport_incl": 415.67,
+   "vastrecht_incl": 101.06,
+   "levering_incl": 0.1584,
+   "vastrecht_dynamisch_incl": null,
+   "levering_dynamisch_incl": null,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.13165,
+   "vermindering_eb_incl": -631.35,
+   "transport_excl": 343.53,
+   "vastrecht_excl": 83.52,
+   "levering_excl": 0.1309,
+   "vastrecht_dynamisch_excl": null,
+   "levering_dynamisch_excl": null,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.1088,
+   "vermindering_eb_excl": -521.78
+  },
+  {
+   "maand": "2025-01",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 104.76,
+   "levering_incl": 0.1589,
+   "vastrecht_dynamisch_incl": 81.01,
+   "levering_dynamisch_incl": 0.1773,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 86.58,
+   "levering_excl": 0.1313,
+   "vastrecht_dynamisch_excl": 66.95,
+   "levering_dynamisch_excl": 0.1466,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-02",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 106.31,
+   "levering_incl": 0.1584,
+   "vastrecht_dynamisch_incl": 81.01,
+   "levering_dynamisch_incl": 0.1885,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 87.86,
+   "levering_excl": 0.1309,
+   "vastrecht_dynamisch_excl": 66.95,
+   "levering_dynamisch_excl": 0.1558,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-03",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 106.6,
+   "levering_incl": 0.156,
+   "vastrecht_dynamisch_incl": 81.01,
+   "levering_dynamisch_incl": 0.1472,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 88.1,
+   "levering_excl": 0.1289,
+   "vastrecht_dynamisch_excl": 66.95,
+   "levering_dynamisch_excl": 0.1216,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-04",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 107.76,
+   "levering_incl": 0.152,
+   "vastrecht_dynamisch_incl": 81.01,
+   "levering_dynamisch_incl": 0.1267,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 89.05,
+   "levering_excl": 0.1256,
+   "vastrecht_dynamisch_excl": 66.95,
+   "levering_dynamisch_excl": 0.1047,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-05",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 108.59,
+   "levering_incl": 0.1481,
+   "vastrecht_dynamisch_incl": 79.26,
+   "levering_dynamisch_incl": 0.1139,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 89.74,
+   "levering_excl": 0.1224,
+   "vastrecht_dynamisch_excl": 65.5,
+   "levering_dynamisch_excl": 0.0941,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-06",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 108.59,
+   "levering_incl": 0.147,
+   "vastrecht_dynamisch_incl": 79.26,
+   "levering_dynamisch_incl": 0.1181,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 89.75,
+   "levering_excl": 0.1214,
+   "vastrecht_dynamisch_excl": 65.5,
+   "levering_dynamisch_excl": 0.0976,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-07",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 108.19,
+   "levering_incl": 0.1479,
+   "vastrecht_dynamisch_incl": 79.26,
+   "levering_dynamisch_incl": 0.1422,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 89.41,
+   "levering_excl": 0.1222,
+   "vastrecht_dynamisch_excl": 65.5,
+   "levering_dynamisch_excl": 0.1176,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-08",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 108.42,
+   "levering_incl": 0.148,
+   "vastrecht_dynamisch_incl": 79.26,
+   "levering_dynamisch_incl": 0.1265,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 89.6,
+   "levering_excl": 0.1223,
+   "vastrecht_dynamisch_excl": 65.5,
+   "levering_dynamisch_excl": 0.1045,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-09",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 108.68,
+   "levering_incl": 0.1485,
+   "vastrecht_dynamisch_incl": 79.26,
+   "levering_dynamisch_incl": 0.1301,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 89.82,
+   "levering_excl": 0.1227,
+   "vastrecht_dynamisch_excl": 65.5,
+   "levering_dynamisch_excl": 0.1076,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-10",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 109.03,
+   "levering_incl": 0.1514,
+   "vastrecht_dynamisch_incl": 79.26,
+   "levering_dynamisch_incl": 0.1358,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 90.1,
+   "levering_excl": 0.1251,
+   "vastrecht_dynamisch_excl": 65.5,
+   "levering_dynamisch_excl": 0.1122,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-11",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 109.35,
+   "levering_incl": 0.1518,
+   "vastrecht_dynamisch_incl": 79.19,
+   "levering_dynamisch_incl": 0.1335,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 90.37,
+   "levering_excl": 0.1254,
+   "vastrecht_dynamisch_excl": 65.45,
+   "levering_dynamisch_excl": 0.1103,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2025-12",
+   "transport_incl": 467.17,
+   "vastrecht_incl": 109.59,
+   "levering_incl": 0.152,
+   "vastrecht_dynamisch_incl": 79.19,
+   "levering_dynamisch_incl": 0.1262,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.12286,
+   "vermindering_eb_incl": -635.19,
+   "transport_excl": 386.09,
+   "vastrecht_excl": 90.57,
+   "levering_excl": 0.1256,
+   "vastrecht_dynamisch_excl": 65.45,
+   "levering_dynamisch_excl": 0.1043,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.10154,
+   "vermindering_eb_excl": -524.95
+  },
+  {
+   "maand": "2026-01",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 110.64,
+   "levering_incl": 0.1497,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1499,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 91.44,
+   "levering_excl": 0.1237,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1239,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-02",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 111.07,
+   "levering_incl": 0.1474,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1316,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 91.79,
+   "levering_excl": 0.1218,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1088,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-03",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 111.68,
+   "levering_incl": 0.1457,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1389,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 92.29,
+   "levering_excl": 0.1204,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1148,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-04",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 112.41,
+   "levering_incl": 0.1383,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1215,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 92.9,
+   "levering_excl": 0.1143,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1004,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-05",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 112.95,
+   "levering_incl": 0.1387,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1353,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 93.35,
+   "levering_excl": 0.1146,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1118,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-06",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 113.1,
+   "levering_incl": 0.1397,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1534,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 93.47,
+   "levering_excl": 0.1155,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1267,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-07",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 114.14,
+   "levering_incl": 0.1447,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1481,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 94.33,
+   "levering_excl": 0.1196,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1224,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-08",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 114.63,
+   "levering_incl": 0.1469,
+   "vastrecht_dynamisch_incl": 88.25,
+   "levering_dynamisch_incl": 0.1716,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 94.74,
+   "levering_excl": 0.1214,
+   "vastrecht_dynamisch_excl": 72.94,
+   "levering_dynamisch_excl": 0.1418,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  },
+  {
+   "maand": "2026-09",
+   "transport_incl": 476.87,
+   "vastrecht_incl": 115.23,
+   "levering_incl": 0.1487,
+   "vastrecht_dynamisch_incl": 98.21,
+   "levering_dynamisch_incl": 0.2057,
+   "ode_incl": 0.0,
+   "energiebelasting_incl": 0.11085,
+   "vermindering_eb_incl": -628.96,
+   "transport_excl": 394.11,
+   "vastrecht_excl": 95.23,
+   "levering_excl": 0.1229,
+   "vastrecht_dynamisch_excl": 81.16,
+   "levering_dynamisch_excl": 0.17,
+   "ode_excl": 0.0,
+   "energiebelasting_excl": 0.09161,
+   "vermindering_eb_excl": -519.8
+  }
+ ],
+ "ttf_dag": [
+  {
+   "datum": "2025-10-01",
+   "slot": 31.335
+  },
+  {
+   "datum": "2025-10-02",
+   "slot": 31.455
+  },
+  {
+   "datum": "2025-10-03",
+   "slot": 31.438
+  },
+  {
+   "datum": "2025-10-06",
+   "slot": 33.116
+  },
+  {
+   "datum": "2025-10-07",
+   "slot": 33.246
+  },
+  {
+   "datum": "2025-10-08",
+   "slot": 32.7
+  },
+  {
+   "datum": "2025-10-09",
+   "slot": 32.363
+  },
+  {
+   "datum": "2025-10-10",
+   "slot": 32.17
+  },
+  {
+   "datum": "2025-10-13",
+   "slot": 31.475
+  },
+  {
+   "datum": "2025-10-14",
+   "slot": 31.801
+  },
+  {
+   "datum": "2025-10-15",
+   "slot": 31.826
+  },
+  {
+   "datum": "2025-10-16",
+   "slot": 32.378
+  },
+  {
+   "datum": "2025-10-17",
+   "slot": 31.816
+  },
+  {
+   "datum": "2025-10-20",
+   "slot": 31.739
+  },
+  {
+   "datum": "2025-10-21",
+   "slot": 32.2
+  },
+  {
+   "datum": "2025-10-22",
+   "slot": 31.768
+  },
+  {
+   "datum": "2025-10-23",
+   "slot": 32.454
+  },
+  {
+   "datum": "2025-10-24",
+   "slot": 32.016
+  },
+  {
+   "datum": "2025-10-27",
+   "slot": 31.4
+  },
+  {
+   "datum": "2025-10-28",
+   "slot": 31.494
+  },
+  {
+   "datum": "2025-10-29",
+   "slot": 31.869
+  },
+  {
+   "datum": "2025-10-30",
+   "slot": 31.048
+  },
+  {
+   "datum": "2025-10-31",
+   "slot": 31.122
+  },
+  {
+   "datum": "2025-11-03",
+   "slot": 31.741
+  },
+  {
+   "datum": "2025-11-04",
+   "slot": 32.551
+  },
+  {
+   "datum": "2025-11-05",
+   "slot": 31.819
+  },
+  {
+   "datum": "2025-11-06",
+   "slot": 31.548
+  },
+  {
+   "datum": "2025-11-07",
+   "slot": 31.201
+  },
+  {
+   "datum": "2025-11-10",
+   "slot": 31.071
+  },
+  {
+   "datum": "2025-11-11",
+   "slot": 31.102
+  },
+  {
+   "datum": "2025-11-12",
+   "slot": 30.933
+  },
+  {
+   "datum": "2025-11-13",
+   "slot": 30.458
+  },
+  {
+   "datum": "2025-11-14",
+   "slot": 31.25
+  },
+  {
+   "datum": "2025-11-17",
+   "slot": 31.418
+  },
+  {
+   "datum": "2025-11-18",
+   "slot": 31.694
+  },
+  {
+   "datum": "2025-11-19",
+   "slot": 30.94
+  },
+  {
+   "datum": "2025-11-20",
+   "slot": 31.159
+  },
+  {
+   "datum": "2025-11-21",
+   "slot": 30.198
+  },
+  {
+   "datum": "2025-11-24",
+   "slot": 29.747
+  },
+  {
+   "datum": "2025-11-25",
+   "slot": 29.386
+  },
+  {
+   "datum": "2025-11-26",
+   "slot": 29.368
+  },
+  {
+   "datum": "2025-11-28",
+   "slot": 28.817
+  },
+  {
+   "datum": "2025-12-01",
+   "slot": 28.227
+  },
+  {
+   "datum": "2025-12-02",
+   "slot": 28.05
+  },
+  {
+   "datum": "2025-12-03",
+   "slot": 28.206
+  },
+  {
+   "datum": "2025-12-04",
+   "slot": 27.088
+  },
+  {
+   "datum": "2025-12-05",
+   "slot": 27.266
+  },
+  {
+   "datum": "2025-12-08",
+   "slot": 26.871
+  },
+  {
+   "datum": "2025-12-09",
+   "slot": 27.489
+  },
+  {
+   "datum": "2025-12-10",
+   "slot": 26.602
+  },
+  {
+   "datum": "2025-12-11",
+   "slot": 26.805
+  },
+  {
+   "datum": "2025-12-12",
+   "slot": 27.684
+  },
+  {
+   "datum": "2025-12-15",
+   "slot": 27.425
+  },
+  {
+   "datum": "2025-12-16",
+   "slot": 26.764
+  },
+  {
+   "datum": "2025-12-17",
+   "slot": 27.357
+  },
+  {
+   "datum": "2025-12-18",
+   "slot": 27.652
+  },
+  {
+   "datum": "2025-12-19",
+   "slot": 28.161
+  },
+  {
+   "datum": "2025-12-22",
+   "slot": 27.687
+  },
+  {
+   "datum": "2025-12-23",
+   "slot": 27.732
+  },
+  {
+   "datum": "2025-12-24",
+   "slot": 28.095
+  },
+  {
+   "datum": "2025-12-26",
+   "slot": 28.095
+  },
+  {
+   "datum": "2025-12-29",
+   "slot": 28.534
+  },
+  {
+   "datum": "2025-12-30",
+   "slot": 27.766
+  },
+  {
+   "datum": "2025-12-31",
+   "slot": 28.161
+  },
+  {
+   "datum": "2026-01-02",
+   "slot": 29.004
+  },
+  {
+   "datum": "2026-01-05",
+   "slot": 27.399
+  },
+  {
+   "datum": "2026-01-06",
+   "slot": 28.072
+  },
+  {
+   "datum": "2026-01-07",
+   "slot": 28.777
+  },
+  {
+   "datum": "2026-01-08",
+   "slot": 27.699
+  },
+  {
+   "datum": "2026-01-09",
+   "slot": 28.374
+  },
+  {
+   "datum": "2026-01-12",
+   "slot": 30.246
+  },
+  {
+   "datum": "2026-01-13",
+   "slot": 31.473
+  },
+  {
+   "datum": "2026-01-14",
+   "slot": 31.813
+  },
+  {
+   "datum": "2026-01-15",
+   "slot": 33.158
+  },
+  {
+   "datum": "2026-01-16",
+   "slot": 36.879
+  },
+  {
+   "datum": "2026-01-20",
+   "slot": 35.887
+  },
+  {
+   "datum": "2026-01-21",
+   "slot": 39.208
+  },
+  {
+   "datum": "2026-01-22",
+   "slot": 38.079
+  },
+  {
+   "datum": "2026-01-23",
+   "slot": 40.039
+  },
+  {
+   "datum": "2026-01-26",
+   "slot": 39.112
+  },
+  {
+   "datum": "2026-01-27",
+   "slot": 38.761
+  },
+  {
+   "datum": "2026-01-28",
+   "slot": 38.861
+  },
+  {
+   "datum": "2026-01-29",
+   "slot": 40.113
+  },
+  {
+   "datum": "2026-01-30",
+   "slot": 39.285
+  },
+  {
+   "datum": "2026-02-02",
+   "slot": 33.945
+  },
+  {
+   "datum": "2026-02-03",
+   "slot": 32.86
+  },
+  {
+   "datum": "2026-02-04",
+   "slot": 33.501
+  },
+  {
+   "datum": "2026-02-05",
+   "slot": 33.735
+  },
+  {
+   "datum": "2026-02-06",
+   "slot": 35.694
+  },
+  {
+   "datum": "2026-02-09",
+   "slot": 33.496
+  },
+  {
+   "datum": "2026-02-10",
+   "slot": 31.846
+  },
+  {
+   "datum": "2026-02-11",
+   "slot": 32.167
+  },
+  {
+   "datum": "2026-02-12",
+   "slot": 32.994
+  },
+  {
+   "datum": "2026-02-13",
+   "slot": 32.5
+  },
+  {
+   "datum": "2026-02-17",
+   "slot": 29.822
+  },
+  {
+   "datum": "2026-02-18",
+   "slot": 31.481
+  },
+  {
+   "datum": "2026-02-19",
+   "slot": 33.523
+  },
+  {
+   "datum": "2026-02-20",
+   "slot": 32.029
+  },
+  {
+   "datum": "2026-02-23",
+   "slot": 31.834
+  },
+  {
+   "datum": "2026-02-24",
+   "slot": 30.891
+  },
+  {
+   "datum": "2026-02-25",
+   "slot": 31.05
+  },
+  {
+   "datum": "2026-02-26",
+   "slot": 32.224
+  },
+  {
+   "datum": "2026-02-27",
+   "slot": 31.959
+  },
+  {
+   "datum": "2026-03-02",
+   "slot": 44.506
+  },
+  {
+   "datum": "2026-03-03",
+   "slot": 54.29
+  },
+  {
+   "datum": "2026-03-04",
+   "slot": 48.767
+  },
+  {
+   "datum": "2026-03-05",
+   "slot": 50.731
+  },
+  {
+   "datum": "2026-03-06",
+   "slot": 53.385
+  },
+  {
+   "datum": "2026-03-09",
+   "slot": 56.453
+  },
+  {
+   "datum": "2026-03-10",
+   "slot": 47.393
+  },
+  {
+   "datum": "2026-03-11",
+   "slot": 49.989
+  },
+  {
+   "datum": "2026-03-12",
+   "slot": 50.87
+  },
+  {
+   "datum": "2026-03-13",
+   "slot": 50.115
+  },
+  {
+   "datum": "2026-03-16",
+   "slot": 50.887
+  },
+  {
+   "datum": "2026-03-17",
+   "slot": 51.559
+  },
+  {
+   "datum": "2026-03-18",
+   "slot": 54.662
+  },
+  {
+   "datum": "2026-03-19",
+   "slot": 61.852
+  },
+  {
+   "datum": "2026-03-20",
+   "slot": 59.255
+  },
+  {
+   "datum": "2026-03-23",
+   "slot": 56.683
+  },
+  {
+   "datum": "2026-03-24",
+   "slot": 54.041
+  },
+  {
+   "datum": "2026-03-25",
+   "slot": 52.816
+  },
+  {
+   "datum": "2026-03-26",
+   "slot": 55.218
+  },
+  {
+   "datum": "2026-03-27",
+   "slot": 54.177
+  },
+  {
+   "datum": "2026-03-30",
+   "slot": 54.814
+  },
+  {
+   "datum": "2026-03-31",
+   "slot": 50.757
+  },
+  {
+   "datum": "2026-04-01",
+   "slot": 47.51
+  },
+  {
+   "datum": "2026-04-02",
+   "slot": 50.044
+  },
+  {
+   "datum": "2026-04-06",
+   "slot": 50.044
+  },
+  {
+   "datum": "2026-04-07",
+   "slot": 53.247
+  },
+  {
+   "datum": "2026-04-08",
+   "slot": 45.301
+  },
+  {
+   "datum": "2026-04-09",
+   "slot": 46.175
+  },
+  {
+   "datum": "2026-04-10",
+   "slot": 43.638
+  },
+  {
+   "datum": "2026-04-13",
+   "slot": 46.413
+  },
+  {
+   "datum": "2026-04-14",
+   "slot": 43.365
+  },
+  {
+   "datum": "2026-04-15",
+   "slot": 41.399
+  },
+  {
+   "datum": "2026-04-16",
+   "slot": 42.422
+  },
+  {
+   "datum": "2026-04-17",
+   "slot": 38.769
+  },
+  {
+   "datum": "2026-04-20",
+   "slot": 40.292
+  },
+  {
+   "datum": "2026-04-21",
+   "slot": 41.931
+  },
+  {
+   "datum": "2026-04-22",
+   "slot": 43.552
+  },
+  {
+   "datum": "2026-04-23",
+   "slot": 44.496
+  },
+  {
+   "datum": "2026-04-24",
+   "slot": 44.861
+  },
+  {
+   "datum": "2026-04-27",
+   "slot": 44.646
+  },
+  {
+   "datum": "2026-04-28",
+   "slot": 43.594
+  },
+  {
+   "datum": "2026-04-29",
+   "slot": 46.853
+  },
+  {
+   "datum": "2026-04-30",
+   "slot": 45.987
+  },
+  {
+   "datum": "2026-05-01",
+   "slot": 45.766
+  },
+  {
+   "datum": "2026-05-04",
+   "slot": 48.143
+  },
+  {
+   "datum": "2026-05-05",
+   "slot": 46.926
+  },
+  {
+   "datum": "2026-05-06",
+   "slot": 43.902
+  },
+  {
+   "datum": "2026-05-07",
+   "slot": 43.561
+  },
+  {
+   "datum": "2026-05-08",
+   "slot": 44.143
+  },
+  {
+   "datum": "2026-05-11",
+   "slot": 46.233
+  },
+  {
+   "datum": "2026-05-12",
+   "slot": 46.684
+  },
+  {
+   "datum": "2026-05-13",
+   "slot": 46.92
+  },
+  {
+   "datum": "2026-05-14",
+   "slot": 47.655
+  },
+  {
+   "datum": "2026-05-15",
+   "slot": 50.167
+  },
+  {
+   "datum": "2026-05-18",
+   "slot": 50.25
+  },
+  {
+   "datum": "2026-05-19",
+   "slot": 51.816
+  },
+  {
+   "datum": "2026-05-20",
+   "slot": 49.425
+  },
+  {
+   "datum": "2026-05-21",
+   "slot": 49.408
+  },
+  {
+   "datum": "2026-05-22",
+   "slot": 48.683
+  },
+  {
+   "datum": "2026-05-26",
+   "slot": 47.472
+  },
+  {
+   "datum": "2026-05-27",
+   "slot": 46.413
+  },
+  {
+   "datum": "2026-05-28",
+   "slot": 46.921
+  },
+  {
+   "datum": "2026-05-29",
+   "slot": 46.001
+  },
+  {
+   "datum": "2026-06-01",
+   "slot": 49.09
+  },
+  {
+   "datum": "2026-06-02",
+   "slot": 47.607
+  },
+  {
+   "datum": "2026-06-03",
+   "slot": 48.864
+  },
+  {
+   "datum": "2026-06-04",
+   "slot": 48.752
+  },
+  {
+   "datum": "2026-06-05",
+   "slot": 48.496
+  },
+  {
+   "datum": "2026-06-08",
+   "slot": 49.826
+  },
+  {
+   "datum": "2026-06-09",
+   "slot": 48.744
+  },
+  {
+   "datum": "2026-06-10",
+   "slot": 49.989
+  },
+  {
+   "datum": "2026-06-11",
+   "slot": 49.69
+  },
+  {
+   "datum": "2026-06-12",
+   "slot": 46.773
+  },
+  {
+   "datum": "2026-06-15",
+   "slot": 42.507
+  },
+  {
+   "datum": "2026-06-16",
+   "slot": 41.769
+  },
+  {
+   "datum": "2026-06-17",
+   "slot": 41.915
+  },
+  {
+   "datum": "2026-06-18",
+   "slot": 40.523
+  },
+  {
+   "datum": "2026-06-22",
+   "slot": 41.887
+  },
+  {
+   "datum": "2026-06-23",
+   "slot": 42.014
+  },
+  {
+   "datum": "2026-06-24",
+   "slot": 40.876
+  },
+  {
+   "datum": "2026-06-25",
+   "slot": 40.405
+  },
+  {
+   "datum": "2026-06-26",
+   "slot": 40.782
+  },
+  {
+   "datum": "2026-06-29",
+   "slot": 42.565
+  },
+  {
+   "datum": "2026-06-30",
+   "slot": 43.444
+  },
+  {
+   "datum": "2026-07-01",
+   "slot": 42.779
+  },
+  {
+   "datum": "2026-07-02",
+   "slot": 44.015
+  },
+  {
+   "datum": "2026-07-06",
+   "slot": 44.131
+  },
+  {
+   "datum": "2026-07-07",
+   "slot": 46.576
+  },
+  {
+   "datum": "2026-07-08",
+   "slot": 49.022
+  },
+  {
+   "datum": "2026-07-09",
+   "slot": 50.102
+  },
+  {
+   "datum": "2026-07-10",
+   "slot": 48.655
+  },
+  {
+   "datum": "2026-07-13",
+   "slot": 51.275
+  },
+  {
+   "datum": "2026-07-14",
+   "slot": 52.959
+  },
+  {
+   "datum": "2026-07-15",
+   "slot": 54.353
+  },
+  {
+   "datum": "2026-07-16",
+   "slot": 54.785
+  },
+  {
+   "datum": "2026-07-17",
+   "slot": 57.395
+  },
+  {
+   "datum": "2026-07-20",
+   "slot": 58.742
+  },
+  {
+   "datum": "2026-07-21",
+   "slot": 59.663
+  },
+  {
+   "datum": "2026-07-22",
+   "slot": 62.537
+  },
+  {
+   "datum": "2026-07-23",
+   "slot": 61.898
+  },
+  {
+   "datum": "2026-07-24",
+   "slot": 63.575
+  },
+  {
+   "datum": "2026-07-27",
+   "slot": 58.253
+  },
+  {
+   "datum": "2026-07-28",
+   "slot": 57.737
+  },
+  {
+   "datum": "2026-07-29",
+   "slot": 60.42
+  },
+  {
+   "datum": "2026-07-30",
+   "slot": 58.181
+  },
+  {
+   "datum": "2026-07-31",
+   "slot": 59.071
+  },
+  {
+   "datum": "2026-08-03",
+   "slot": 57.505
+  },
+  {
+   "datum": "2026-08-04",
+   "slot": 55.921
+  },
+  {
+   "datum": "2026-08-05",
+   "slot": 52.404
+  },
+  {
+   "datum": "2026-08-06",
+   "slot": 55.769
+  },
+  {
+   "datum": "2026-08-07",
+   "slot": 55.544
+  },
+  {
+   "datum": "2026-08-10",
+   "slot": 60.798
+  },
+  {
+   "datum": "2026-08-11",
+   "slot": 58.735
+  },
+  {
+   "datum": "2026-08-12",
+   "slot": 61.021
+  },
+  {
+   "datum": "2026-08-13",
+   "slot": 60.4
+  },
+  {
+   "datum": "2026-08-14",
+   "slot": 61.424
+  },
+  {
+   "datum": "2026-08-17",
+   "slot": 61.757
+  },
+  {
+   "datum": "2026-08-18",
+   "slot": 63.646
+  },
+  {
+   "datum": "2026-08-19",
+   "slot": 63.381
+  },
+  {
+   "datum": "2026-08-20",
+   "slot": 65.295
+  },
+  {
+   "datum": "2026-08-21",
+   "slot": 65.865
+  },
+  {
+   "datum": "2026-08-24",
+   "slot": 68.32
+  },
+  {
+   "datum": "2026-08-25",
+   "slot": 66.588
+  },
+  {
+   "datum": "2026-08-26",
+   "slot": 65.626
+  },
+  {
+   "datum": "2026-08-27",
+   "slot": 68.095
+  },
+  {
+   "datum": "2026-08-28",
+   "slot": 66.979
+  },
+  {
+   "datum": "2026-08-31",
+   "slot": 69.809
+  },
+  {
+   "datum": "2026-09-01",
+   "slot": 72.218
+  },
+  {
+   "datum": "2026-09-02",
+   "slot": 73.634
+  },
+  {
+   "datum": "2026-09-03",
+   "slot": 71.81
+  },
+  {
+   "datum": "2026-09-04",
+   "slot": 71.952
+  },
+  {
+   "datum": "2026-09-08",
+   "slot": 75.841
+  },
+  {
+   "datum": "2026-09-09",
+   "slot": 79.246
+  },
+  {
+   "datum": "2026-09-10",
+   "slot": 82.047
+  },
+  {
+   "datum": "2026-09-11",
+   "slot": 79.52
+  },
+  {
+   "datum": "2026-09-14",
+   "slot": 82.566
+  },
+  {
+   "datum": "2026-09-15",
+   "slot": 80.06
+  },
+  {
+   "datum": "2026-09-16",
+   "slot": 78.03
+  },
+  {
+   "datum": "2026-09-17",
+   "slot": 76.352
+  },
+  {
+   "datum": "2026-09-18",
+   "slot": 79.518
+  },
+  {
+   "datum": "2026-09-21",
+   "slot": 73.253
+  },
+  {
+   "datum": "2026-09-22",
+   "slot": 73.34
+  },
+  {
+   "datum": "2026-09-23",
+   "slot": 72.01
+  },
+  {
+   "datum": "2026-09-24",
+   "slot": 75.106
+  },
+  {
+   "datum": "2026-09-25",
+   "slot": 72.071
+  },
+  {
+   "datum": "2026-09-28",
+   "slot": 73.437
+  },
+  {
+   "datum": "2026-09-29",
+   "slot": 69.805
+  },
+  {
+   "datum": "2026-09-30",
+   "slot": 72.357
+  },
+  {
+   "datum": "2026-10-01",
+   "slot": 73.938
+  },
+  {
+   "datum": "2026-10-02",
+   "slot": 74.76
+  },
+  {
+   "datum": "2026-10-05",
+   "slot": 73.513
+  },
+  {
+   "datum": "2026-10-06",
+   "slot": 75.691
+  },
+  {
+   "datum": "2026-10-07",
+   "slot": 78.08
+  },
+  {
+   "datum": "2026-10-08",
+   "slot": 78.849
+  },
+  {
+   "datum": "2026-10-09",
+   "slot": 81.434
+  },
+  {
+   "datum": "2026-10-12",
+   "slot": 84.351
+  },
+  {
+   "datum": "2026-10-13",
+   "slot": 87.223
+  },
+  {
+   "datum": "2026-10-14",
+   "slot": 87.138
+  },
+  {
+   "datum": "2026-10-15",
+   "slot": 86.432
+  },
+  {
+   "datum": "2026-10-16",
+   "slot": 87.547
+  },
+  {
+   "datum": "2026-10-19",
+   "slot": 88.04
+  },
+  {
+   "datum": "2026-10-20",
+   "slot": 85.062
+  },
+  {
+   "datum": "2026-10-21",
+   "slot": 87.426
+  },
+  {
+   "datum": "2026-10-22",
+   "slot": 90.043
+  },
+  {
+   "datum": "2026-10-23",
+   "slot": 93.853
+  },
+  {
+   "datum": "2026-10-26",
+   "slot": 96.681
+  },
+  {
+   "datum": "2026-10-27",
+   "slot": 96.061
+  },
+  {
+   "datum": "2026-10-28",
+   "slot": 100.72
+  },
+  {
+   "datum": "2026-10-29",
+   "slot": 98.588
+  },
+  {
+   "datum": "2026-10-30",
+   "slot": 103.944
+  },
+  {
+   "datum": "2026-11-02",
+   "slot": 94.861
+  },
+  {
+   "datum": "2026-11-03",
+   "slot": 91.602
+  },
+  {
+   "datum": "2026-11-04",
+   "slot": 88.082
+  },
+  {
+   "datum": "2026-11-05",
+   "slot": 89.28
+  }
+ ],
  "ttf_maand": [
   {
    "maand": "2022-01",
@@ -1728,5 +3931,11 @@
   },
   "btw": 0.21
  },
- "wijzigingslog": []
+ "wijzigingslog": [
+  {
+   "tijd": "2026-11-05T14:01:20Z",
+   "bron": "ttf_dag",
+   "tekst": "TTF 2026-11-05: €89.28/MWh"
+  }
+ ]
 }
