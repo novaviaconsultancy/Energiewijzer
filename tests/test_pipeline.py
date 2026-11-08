@@ -45,3 +45,23 @@ def test_transform_gas():
 def test_maandgemiddelden():
     dag = [{"datum": "2026-11-02", "slot": 94.0}, {"datum": "2026-11-03", "slot": 92.0}, {"datum": "2026-10-31", "slot": 100.0}]
     assert maandgemiddelden(dag) == {"2026-10": 100.0, "2026-11": 93.0}
+
+
+from pipeline.fetch_dynamisch import leveranciers_uit, prijs_vandaag
+
+
+def test_leveranciers_uit_energieprijzen():
+    data = {"gegenereerdOp": "2026-11-02T12:00:00Z", "leveranciers": [
+        {"naam": "B", "tarieven": {"gasInkoopopslag": {"bedragInclBtw": 0.0768, "laatstGecontroleerd": "2026-11-02"}, "gasVastPerMaand": {"bedragInclBtw": 9.75}}},
+        {"naam": "A", "tarieven": {"gasInkoopopslag": {"bedragInclBtw": 0.06}, "gasVastPerMaand": {"bedragInclBtw": 5.99}}},
+        {"naam": "Alleen stroom", "tarieven": {"stroomInkoopopslag": {"bedragInclBtw": 0.02}}},
+    ]}
+    uit = leveranciers_uit(data)
+    assert [l["naam"] for l in uit] == ["A", "B"]
+    assert uit[1]["opslag_incl"] == 0.0768 and uit[1]["vast_per_maand_incl"] == 9.75
+    assert uit[1]["gecontroleerd"] == "2026-11-02"
+
+
+def test_prijs_vandaag():
+    # 0,70 markt excl. btw → 0,847 + EB 0,7268 + opslag 0,08 = 1,6538
+    assert prijs_vandaag(0.70, 0.7268, 0.08) == 1.6538

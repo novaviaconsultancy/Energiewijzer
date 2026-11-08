@@ -39,7 +39,7 @@ def bron(naam, url, rijen, laatste, schema, status="ok", melding=None):
 
 def main(offline: bool = False) -> int:
     vorig = lees(OUT, {}) or {}
-    data = {k: vorig.get(k) for k in ("cbs_gas", "cbs_stroom", "ttf_dag")}
+    data = {k: vorig.get(k) for k in ("cbs_gas", "cbs_stroom", "ttf_dag", "gas_markt_dag", "dyn_leveranciers")}
     bronnen = dict(vorig.get("bronnen", {}))
     log = list(vorig.get("wijzigingslog", []))
 
@@ -78,6 +78,34 @@ def main(offline: bool = False) -> int:
                 bronnen["ttf_dag"].update(status="fout", melding=str(e)[:300])
             logboek("ttf_dag", f"Ophalen mislukt, vorige versie behouden: {e}")
 
+    # --- Gasmarktprijs per dag (EnergyZero) + dynamische leveranciers (energieprijzen-nl) ---
+    if not offline:
+        try:
+            from pipeline import fetch_dynamisch
+            markt = fetch_dynamisch.fetch_gasmarkt()
+            oud = (data.get("gas_markt_dag") or [{}])[-1].get("datum")
+            data["gas_markt_dag"] = markt
+            bronnen["gas_markt_dag"] = bron("Gasprijs per dag (EnergyZero, day-ahead)", "https://www.energyzero.nl", len(markt), markt[-1]["datum"], "dagelijks, nieuwe prijs vanaf 06:00")
+            if markt[-1]["datum"] != oud:
+                logboek("gas_markt_dag", f"Gasmarktprijs {markt[-1]['datum']}: €{markt[-1]['markt_excl']:.3f}/m³ excl. btw")
+        except Exception as e:
+            if "gas_markt_dag" in bronnen:
+                bronnen["gas_markt_dag"].update(status="fout", melding=str(e)[:300])
+            logboek("gas_markt_dag", f"Ophalen mislukt, vorige versie behouden: {e}")
+        try:
+            from pipeline import fetch_dynamisch
+            lev = fetch_dynamisch.fetch_leveranciers()["leveranciers"]
+            oud = {l["naam"]: (l["opslag_incl"], l["vast_per_maand_incl"]) for l in (data.get("dyn_leveranciers") or [])}
+            for l in lev:
+                if l["naam"] in oud and oud[l["naam"]] != (l["opslag_incl"], l["vast_per_maand_incl"]):
+                    logboek("dyn_leveranciers", f"{l['naam']}: tarief gewijzigd (opslag €{l['opslag_incl']:.4f}/m³, vast €{l['vast_per_maand_incl']:.2f}/mnd)")
+            data["dyn_leveranciers"] = lev
+            bronnen["dyn_leveranciers"] = bron("energieprijzen-nl (CC BY 4.0), tarieven gelezen bij de leveranciers zelf", fetch_dynamisch.ENERGIEPRIJZEN_REPO, len(lev), None, "wekelijks + 1e en 2e van de maand")
+        except Exception as e:
+            if "dyn_leveranciers" in bronnen:
+                bronnen["dyn_leveranciers"].update(status="fout", melding=str(e)[:300])
+            logboek("dyn_leveranciers", f"Ophalen mislukt, vorige versie behouden: {e}")
+
     # --- TTF maandindex: handmatige EEX-index, aangevuld met dag-gemiddelden ---
     maand = lees(MANUAL / "ttf_maandindex.json", [])
     bekend = {r["maand"] for r in maand}
@@ -101,6 +129,7 @@ def main(offline: bool = False) -> int:
         pad = MANUAL / bestand
         inhoud = lees(pad)
         if inhoud is None:
+            bronnen.pop(key, None)  # bestand weg = bron weg (bijv. leveranciers_gas.json)
             continue
         gewijzigd = datetime.fromtimestamp(pad.stat().st_mtime, timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
         if json.dumps(inhoud, sort_keys=True) != json.dumps(vorig.get(key), sort_keys=True) and key in vorig:
@@ -108,6 +137,21 @@ def main(offline: bool = False) -> int:
         data[key] = inhoud
         rijen = len(inhoud) if isinstance(inhoud, list) else 1
         bronnen[key] = {**bron(naam, f"data/manual/{bestand}", rijen, None, schema), "bijgewerkt": gewijzigd}
+
+    # --- Ranglijst dynamisch voor vandaag (gemaksveld; de pagina kan ook zelf rekenen) ---
+    if data.get("gas_markt_dag") and data.get("dyn_leveranciers") and data.get("belasting"):
+        from pipeline.fetch_dynamisch import prijs_vandaag
+        b = data["belasting"]
+        jaar = int(data["gas_markt_dag"][-1]["datum"][:4])
+        eb = next((g["eb_excl"] for g in b.get("gas", []) if g["jaar"] == jaar), None)
+        if eb is None and data.get("cbs_gas"):
+            eb = data["cbs_gas"][-1]["energiebelasting_excl"]
+        if eb is not None:
+            btw = b.get("btw", 0.21)
+            markt = data["gas_markt_dag"][-1]["markt_excl"]
+            for l in data["dyn_leveranciers"]:
+                l["prijs_vandaag_incl"] = prijs_vandaag(markt, eb * (1 + btw), l["opslag_incl"], btw)
+                l["prijs_datum"] = data["gas_markt_dag"][-1]["datum"]
 
     uit = {"versie": 1, "gegenereerd": now(), "bronnen": bronnen, **data, "wijzigingslog": log[:LOG_MAX]}
     if not uit.get("cbs_gas"):
