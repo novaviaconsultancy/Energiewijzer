@@ -124,6 +124,7 @@ def main(offline: bool = False) -> int:
         "leveranciers": ("leveranciers_gas.json", "Tarieven per leverancier", "wekelijks"),
         "nieuws": ("nieuws.json", "Nieuws gasmarkt", "wekelijks"),
         "belasting": ("belasting.json", "Energiebelasting en status Belastingplan", "jaarlijks, na stemming Eerste Kamer"),
+        "maatregelen": ("maatregelen.json", "Besparingsmaatregelen (Milieu Centraal, Nibud, RVO)", "per kwartaal en bij nieuwe subsidieregels"),
     }
     for key, (bestand, naam, schema) in handmatig.items():
         pad = MANUAL / bestand
