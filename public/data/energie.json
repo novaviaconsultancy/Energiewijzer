@@ -1,13 +1,13 @@
 {
  "versie": 1,
- "gegenereerd": "2026-11-08T10:15:53Z",
+ "gegenereerd": "2026-11-09T06:21:39Z",
  "bronnen": {
   "cbs": {
    "naam": "CBS StatLine 85592NED",
    "url": "https://opendata.cbs.nl/ODataApi/OData/85592NED",
    "rijen": 57,
    "laatste_periode": "2026-09",
-   "bijgewerkt": "2026-11-08T10:15:43Z",
+   "bijgewerkt": "2026-11-09T06:21:27Z",
    "schema": "maandelijks, rond de 2e donderdag",
    "status": "ok",
    "melding": null
@@ -17,7 +17,7 @@
    "url": "data/manual/ttf_termijn.json",
    "rijen": 10,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-08T10:15:27Z",
+   "bijgewerkt": "2026-11-09T06:21:07Z",
    "schema": "bij grote marktbewegingen",
    "status": "ok",
    "melding": null
@@ -27,7 +27,7 @@
    "url": "data/manual/acm_mediaan_gas.json",
    "rijen": 15,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-08T10:15:27Z",
+   "bijgewerkt": "2026-11-09T06:21:07Z",
    "schema": "maandelijks, rond het midden van de maand",
    "status": "ok",
    "melding": null
@@ -37,7 +37,7 @@
    "url": "data/manual/nieuws.json",
    "rijen": 9,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-08T10:15:27Z",
+   "bijgewerkt": "2026-11-09T06:21:07Z",
    "schema": "wekelijks",
    "status": "ok",
    "melding": null
@@ -47,7 +47,7 @@
    "url": "data/manual/belasting.json",
    "rijen": 1,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-08T10:15:27Z",
+   "bijgewerkt": "2026-11-09T06:21:07Z",
    "schema": "jaarlijks, na stemming Eerste Kamer",
    "status": "ok",
    "melding": null
@@ -55,9 +55,9 @@
   "ttf_dag": {
    "naam": "TTF front-month slotkoers (Yahoo Finance TTF=F)",
    "url": "https://finance.yahoo.com/quote/TTF%3DF",
-   "rijen": 275,
-   "laatste_periode": "2026-11-06",
-   "bijgewerkt": "2026-11-08T10:15:44Z",
+   "rijen": 1,
+   "laatste_periode": "2026-10-15",
+   "bijgewerkt": "2026-11-09T06:21:28Z",
    "schema": "dagelijks op werkdagen",
    "status": "ok",
    "melding": null
@@ -66,8 +66,8 @@
    "naam": "Gasprijs per dag (EnergyZero, day-ahead)",
    "url": "https://www.energyzero.nl",
    "rijen": 60,
-   "laatste_periode": "2026-11-08",
-   "bijgewerkt": "2026-11-08T10:15:52Z",
+   "laatste_periode": "2026-11-09",
+   "bijgewerkt": "2026-11-09T06:21:39Z",
    "schema": "dagelijks, nieuwe prijs vanaf 06:00",
    "status": "ok",
    "melding": null
@@ -77,8 +77,18 @@
    "url": "https://github.com/zhinees/energieprijzen-nl",
    "rijen": 20,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-08T10:15:53Z",
+   "bijgewerkt": "2026-11-09T06:21:39Z",
    "schema": "wekelijks + 1e en 2e van de maand",
+   "status": "ok",
+   "melding": null
+  },
+  "maatregelen": {
+   "naam": "Besparingsmaatregelen (Milieu Centraal, Nibud, RVO)",
+   "url": "data/manual/maatregelen.json",
+   "rijen": 1,
+   "laatste_periode": null,
+   "bijgewerkt": "2026-11-09T06:21:07Z",
+   "schema": "per kwartaal en bij nieuwe subsidieregels",
    "status": "ok",
    "melding": null
   }
@@ -1913,1111 +1923,11 @@
  ],
  "ttf_dag": [
   {
-   "datum": "2025-10-06",
-   "slot": 33.116
-  },
-  {
-   "datum": "2025-10-07",
-   "slot": 33.246
-  },
-  {
-   "datum": "2025-10-08",
-   "slot": 32.7
-  },
-  {
-   "datum": "2025-10-09",
-   "slot": 32.363
-  },
-  {
-   "datum": "2025-10-10",
-   "slot": 32.17
-  },
-  {
-   "datum": "2025-10-13",
-   "slot": 31.475
-  },
-  {
-   "datum": "2025-10-14",
-   "slot": 31.801
-  },
-  {
-   "datum": "2025-10-15",
-   "slot": 31.826
-  },
-  {
-   "datum": "2025-10-16",
-   "slot": 32.378
-  },
-  {
-   "datum": "2025-10-17",
-   "slot": 31.816
-  },
-  {
-   "datum": "2025-10-20",
-   "slot": 31.739
-  },
-  {
-   "datum": "2025-10-21",
-   "slot": 32.2
-  },
-  {
-   "datum": "2025-10-22",
-   "slot": 31.768
-  },
-  {
-   "datum": "2025-10-23",
-   "slot": 32.454
-  },
-  {
-   "datum": "2025-10-24",
-   "slot": 32.016
-  },
-  {
-   "datum": "2025-10-27",
-   "slot": 31.4
-  },
-  {
-   "datum": "2025-10-28",
-   "slot": 31.494
-  },
-  {
-   "datum": "2025-10-29",
-   "slot": 31.869
-  },
-  {
-   "datum": "2025-10-30",
-   "slot": 31.048
-  },
-  {
-   "datum": "2025-10-31",
-   "slot": 31.122
-  },
-  {
-   "datum": "2025-11-03",
-   "slot": 31.741
-  },
-  {
-   "datum": "2025-11-04",
-   "slot": 32.551
-  },
-  {
-   "datum": "2025-11-05",
-   "slot": 31.819
-  },
-  {
-   "datum": "2025-11-06",
-   "slot": 31.548
-  },
-  {
-   "datum": "2025-11-07",
-   "slot": 31.201
-  },
-  {
-   "datum": "2025-11-10",
-   "slot": 31.071
-  },
-  {
-   "datum": "2025-11-11",
-   "slot": 31.102
-  },
-  {
-   "datum": "2025-11-12",
-   "slot": 30.933
-  },
-  {
-   "datum": "2025-11-13",
-   "slot": 30.458
-  },
-  {
-   "datum": "2025-11-14",
-   "slot": 31.25
-  },
-  {
-   "datum": "2025-11-17",
-   "slot": 31.418
-  },
-  {
-   "datum": "2025-11-18",
-   "slot": 31.694
-  },
-  {
-   "datum": "2025-11-19",
-   "slot": 30.94
-  },
-  {
-   "datum": "2025-11-20",
-   "slot": 31.159
-  },
-  {
-   "datum": "2025-11-21",
-   "slot": 30.198
-  },
-  {
-   "datum": "2025-11-24",
-   "slot": 29.747
-  },
-  {
-   "datum": "2025-11-25",
-   "slot": 29.386
-  },
-  {
-   "datum": "2025-11-26",
-   "slot": 29.368
-  },
-  {
-   "datum": "2025-11-28",
-   "slot": 28.817
-  },
-  {
-   "datum": "2025-12-01",
-   "slot": 28.227
-  },
-  {
-   "datum": "2025-12-02",
-   "slot": 28.05
-  },
-  {
-   "datum": "2025-12-03",
-   "slot": 28.206
-  },
-  {
-   "datum": "2025-12-04",
-   "slot": 27.088
-  },
-  {
-   "datum": "2025-12-05",
-   "slot": 27.266
-  },
-  {
-   "datum": "2025-12-08",
-   "slot": 26.871
-  },
-  {
-   "datum": "2025-12-09",
-   "slot": 27.489
-  },
-  {
-   "datum": "2025-12-10",
-   "slot": 26.602
-  },
-  {
-   "datum": "2025-12-11",
-   "slot": 26.805
-  },
-  {
-   "datum": "2025-12-12",
-   "slot": 27.684
-  },
-  {
-   "datum": "2025-12-15",
-   "slot": 27.425
-  },
-  {
-   "datum": "2025-12-16",
-   "slot": 26.764
-  },
-  {
-   "datum": "2025-12-17",
-   "slot": 27.357
-  },
-  {
-   "datum": "2025-12-18",
-   "slot": 27.652
-  },
-  {
-   "datum": "2025-12-19",
-   "slot": 28.161
-  },
-  {
-   "datum": "2025-12-22",
-   "slot": 27.687
-  },
-  {
-   "datum": "2025-12-23",
-   "slot": 27.732
-  },
-  {
-   "datum": "2025-12-24",
-   "slot": 28.095
-  },
-  {
-   "datum": "2025-12-26",
-   "slot": 28.095
-  },
-  {
-   "datum": "2025-12-29",
-   "slot": 28.534
-  },
-  {
-   "datum": "2025-12-30",
-   "slot": 27.766
-  },
-  {
-   "datum": "2025-12-31",
-   "slot": 28.161
-  },
-  {
-   "datum": "2026-01-02",
-   "slot": 29.004
-  },
-  {
-   "datum": "2026-01-05",
-   "slot": 27.399
-  },
-  {
-   "datum": "2026-01-06",
-   "slot": 28.072
-  },
-  {
-   "datum": "2026-01-07",
-   "slot": 28.777
-  },
-  {
-   "datum": "2026-01-08",
-   "slot": 27.699
-  },
-  {
-   "datum": "2026-01-09",
-   "slot": 28.374
-  },
-  {
-   "datum": "2026-01-12",
-   "slot": 30.246
-  },
-  {
-   "datum": "2026-01-13",
-   "slot": 31.473
-  },
-  {
-   "datum": "2026-01-14",
-   "slot": 31.813
-  },
-  {
-   "datum": "2026-01-15",
-   "slot": 33.158
-  },
-  {
-   "datum": "2026-01-16",
-   "slot": 36.879
-  },
-  {
-   "datum": "2026-01-20",
-   "slot": 35.887
-  },
-  {
-   "datum": "2026-01-21",
-   "slot": 39.208
-  },
-  {
-   "datum": "2026-01-22",
-   "slot": 38.079
-  },
-  {
-   "datum": "2026-01-23",
-   "slot": 40.039
-  },
-  {
-   "datum": "2026-01-26",
-   "slot": 39.112
-  },
-  {
-   "datum": "2026-01-27",
-   "slot": 38.761
-  },
-  {
-   "datum": "2026-01-28",
-   "slot": 38.861
-  },
-  {
-   "datum": "2026-01-29",
-   "slot": 40.113
-  },
-  {
-   "datum": "2026-01-30",
-   "slot": 39.285
-  },
-  {
-   "datum": "2026-02-02",
-   "slot": 33.945
-  },
-  {
-   "datum": "2026-02-03",
-   "slot": 32.86
-  },
-  {
-   "datum": "2026-02-04",
-   "slot": 33.501
-  },
-  {
-   "datum": "2026-02-05",
-   "slot": 33.735
-  },
-  {
-   "datum": "2026-02-06",
-   "slot": 35.694
-  },
-  {
-   "datum": "2026-02-09",
-   "slot": 33.496
-  },
-  {
-   "datum": "2026-02-10",
-   "slot": 31.846
-  },
-  {
-   "datum": "2026-02-11",
-   "slot": 32.167
-  },
-  {
-   "datum": "2026-02-12",
-   "slot": 32.994
-  },
-  {
-   "datum": "2026-02-13",
-   "slot": 32.5
-  },
-  {
-   "datum": "2026-02-17",
-   "slot": 29.822
-  },
-  {
-   "datum": "2026-02-18",
-   "slot": 31.481
-  },
-  {
-   "datum": "2026-02-19",
-   "slot": 33.523
-  },
-  {
-   "datum": "2026-02-20",
-   "slot": 32.029
-  },
-  {
-   "datum": "2026-02-23",
-   "slot": 31.834
-  },
-  {
-   "datum": "2026-02-24",
-   "slot": 30.891
-  },
-  {
-   "datum": "2026-02-25",
-   "slot": 31.05
-  },
-  {
-   "datum": "2026-02-26",
-   "slot": 32.224
-  },
-  {
-   "datum": "2026-02-27",
-   "slot": 31.959
-  },
-  {
-   "datum": "2026-03-02",
-   "slot": 44.506
-  },
-  {
-   "datum": "2026-03-03",
-   "slot": 54.29
-  },
-  {
-   "datum": "2026-03-04",
-   "slot": 48.767
-  },
-  {
-   "datum": "2026-03-05",
-   "slot": 50.731
-  },
-  {
-   "datum": "2026-03-06",
-   "slot": 53.385
-  },
-  {
-   "datum": "2026-03-09",
-   "slot": 56.453
-  },
-  {
-   "datum": "2026-03-10",
-   "slot": 47.393
-  },
-  {
-   "datum": "2026-03-11",
-   "slot": 49.989
-  },
-  {
-   "datum": "2026-03-12",
-   "slot": 50.87
-  },
-  {
-   "datum": "2026-03-13",
-   "slot": 50.115
-  },
-  {
-   "datum": "2026-03-16",
-   "slot": 50.887
-  },
-  {
-   "datum": "2026-03-17",
-   "slot": 51.559
-  },
-  {
-   "datum": "2026-03-18",
-   "slot": 54.662
-  },
-  {
-   "datum": "2026-03-19",
-   "slot": 61.852
-  },
-  {
-   "datum": "2026-03-20",
-   "slot": 59.255
-  },
-  {
-   "datum": "2026-03-23",
-   "slot": 56.683
-  },
-  {
-   "datum": "2026-03-24",
-   "slot": 54.041
-  },
-  {
-   "datum": "2026-03-25",
-   "slot": 52.816
-  },
-  {
-   "datum": "2026-03-26",
-   "slot": 55.218
-  },
-  {
-   "datum": "2026-03-27",
-   "slot": 54.177
-  },
-  {
-   "datum": "2026-03-30",
-   "slot": 54.814
-  },
-  {
-   "datum": "2026-03-31",
-   "slot": 50.757
-  },
-  {
-   "datum": "2026-04-01",
-   "slot": 47.51
-  },
-  {
-   "datum": "2026-04-02",
-   "slot": 50.044
-  },
-  {
-   "datum": "2026-04-06",
-   "slot": 50.044
-  },
-  {
-   "datum": "2026-04-07",
-   "slot": 53.247
-  },
-  {
-   "datum": "2026-04-08",
-   "slot": 45.301
-  },
-  {
-   "datum": "2026-04-09",
-   "slot": 46.175
-  },
-  {
-   "datum": "2026-04-10",
-   "slot": 43.638
-  },
-  {
-   "datum": "2026-04-13",
-   "slot": 46.413
-  },
-  {
-   "datum": "2026-04-14",
-   "slot": 43.365
-  },
-  {
-   "datum": "2026-04-15",
-   "slot": 41.399
-  },
-  {
-   "datum": "2026-04-16",
-   "slot": 42.422
-  },
-  {
-   "datum": "2026-04-17",
-   "slot": 38.769
-  },
-  {
-   "datum": "2026-04-20",
-   "slot": 40.292
-  },
-  {
-   "datum": "2026-04-21",
-   "slot": 41.931
-  },
-  {
-   "datum": "2026-04-22",
-   "slot": 43.552
-  },
-  {
-   "datum": "2026-04-23",
-   "slot": 44.496
-  },
-  {
-   "datum": "2026-04-24",
-   "slot": 44.861
-  },
-  {
-   "datum": "2026-04-27",
-   "slot": 44.646
-  },
-  {
-   "datum": "2026-04-28",
-   "slot": 43.594
-  },
-  {
-   "datum": "2026-04-29",
-   "slot": 46.853
-  },
-  {
-   "datum": "2026-04-30",
-   "slot": 45.987
-  },
-  {
-   "datum": "2026-05-01",
-   "slot": 45.766
-  },
-  {
-   "datum": "2026-05-04",
-   "slot": 48.143
-  },
-  {
-   "datum": "2026-05-05",
-   "slot": 46.926
-  },
-  {
-   "datum": "2026-05-06",
-   "slot": 43.902
-  },
-  {
-   "datum": "2026-05-07",
-   "slot": 43.561
-  },
-  {
-   "datum": "2026-05-08",
-   "slot": 44.143
-  },
-  {
-   "datum": "2026-05-11",
-   "slot": 46.233
-  },
-  {
-   "datum": "2026-05-12",
-   "slot": 46.684
-  },
-  {
-   "datum": "2026-05-13",
-   "slot": 46.92
-  },
-  {
-   "datum": "2026-05-14",
-   "slot": 47.655
-  },
-  {
-   "datum": "2026-05-15",
-   "slot": 50.167
-  },
-  {
-   "datum": "2026-05-18",
-   "slot": 50.25
-  },
-  {
-   "datum": "2026-05-19",
-   "slot": 51.816
-  },
-  {
-   "datum": "2026-05-20",
-   "slot": 49.425
-  },
-  {
-   "datum": "2026-05-21",
-   "slot": 49.408
-  },
-  {
-   "datum": "2026-05-22",
-   "slot": 48.683
-  },
-  {
-   "datum": "2026-05-26",
-   "slot": 47.472
-  },
-  {
-   "datum": "2026-05-27",
-   "slot": 46.413
-  },
-  {
-   "datum": "2026-05-28",
-   "slot": 46.921
-  },
-  {
-   "datum": "2026-05-29",
-   "slot": 46.001
-  },
-  {
-   "datum": "2026-06-01",
-   "slot": 49.09
-  },
-  {
-   "datum": "2026-06-02",
-   "slot": 47.607
-  },
-  {
-   "datum": "2026-06-03",
-   "slot": 48.864
-  },
-  {
-   "datum": "2026-06-04",
-   "slot": 48.752
-  },
-  {
-   "datum": "2026-06-05",
-   "slot": 48.496
-  },
-  {
-   "datum": "2026-06-08",
-   "slot": 49.826
-  },
-  {
-   "datum": "2026-06-09",
-   "slot": 48.744
-  },
-  {
-   "datum": "2026-06-10",
-   "slot": 49.989
-  },
-  {
-   "datum": "2026-06-11",
-   "slot": 49.69
-  },
-  {
-   "datum": "2026-06-12",
-   "slot": 46.773
-  },
-  {
-   "datum": "2026-06-15",
-   "slot": 42.507
-  },
-  {
-   "datum": "2026-06-16",
-   "slot": 41.769
-  },
-  {
-   "datum": "2026-06-17",
-   "slot": 41.915
-  },
-  {
-   "datum": "2026-06-18",
-   "slot": 40.523
-  },
-  {
-   "datum": "2026-06-22",
-   "slot": 41.887
-  },
-  {
-   "datum": "2026-06-23",
-   "slot": 42.014
-  },
-  {
-   "datum": "2026-06-24",
-   "slot": 40.876
-  },
-  {
-   "datum": "2026-06-25",
-   "slot": 40.405
-  },
-  {
-   "datum": "2026-06-26",
-   "slot": 40.782
-  },
-  {
-   "datum": "2026-06-29",
-   "slot": 42.565
-  },
-  {
-   "datum": "2026-06-30",
-   "slot": 43.444
-  },
-  {
-   "datum": "2026-07-01",
-   "slot": 42.779
-  },
-  {
-   "datum": "2026-07-02",
-   "slot": 44.015
-  },
-  {
-   "datum": "2026-07-06",
-   "slot": 44.131
-  },
-  {
-   "datum": "2026-07-07",
-   "slot": 46.576
-  },
-  {
-   "datum": "2026-07-08",
-   "slot": 49.022
-  },
-  {
-   "datum": "2026-07-09",
-   "slot": 50.102
-  },
-  {
-   "datum": "2026-07-10",
-   "slot": 48.655
-  },
-  {
-   "datum": "2026-07-13",
-   "slot": 51.275
-  },
-  {
-   "datum": "2026-07-14",
-   "slot": 52.959
-  },
-  {
-   "datum": "2026-07-15",
-   "slot": 54.353
-  },
-  {
-   "datum": "2026-07-16",
-   "slot": 54.785
-  },
-  {
-   "datum": "2026-07-17",
-   "slot": 57.395
-  },
-  {
-   "datum": "2026-07-20",
-   "slot": 58.742
-  },
-  {
-   "datum": "2026-07-21",
-   "slot": 59.663
-  },
-  {
-   "datum": "2026-07-22",
-   "slot": 62.537
-  },
-  {
-   "datum": "2026-07-23",
-   "slot": 61.898
-  },
-  {
-   "datum": "2026-07-24",
-   "slot": 63.575
-  },
-  {
-   "datum": "2026-07-27",
-   "slot": 58.253
-  },
-  {
-   "datum": "2026-07-28",
-   "slot": 57.737
-  },
-  {
-   "datum": "2026-07-29",
-   "slot": 60.42
-  },
-  {
-   "datum": "2026-07-30",
-   "slot": 58.181
-  },
-  {
-   "datum": "2026-07-31",
-   "slot": 59.071
-  },
-  {
-   "datum": "2026-08-03",
-   "slot": 57.505
-  },
-  {
-   "datum": "2026-08-04",
-   "slot": 55.921
-  },
-  {
-   "datum": "2026-08-05",
-   "slot": 52.404
-  },
-  {
-   "datum": "2026-08-06",
-   "slot": 55.769
-  },
-  {
-   "datum": "2026-08-07",
-   "slot": 55.544
-  },
-  {
-   "datum": "2026-08-10",
-   "slot": 60.798
-  },
-  {
-   "datum": "2026-08-11",
-   "slot": 58.735
-  },
-  {
-   "datum": "2026-08-12",
-   "slot": 61.021
-  },
-  {
-   "datum": "2026-08-13",
-   "slot": 60.4
-  },
-  {
-   "datum": "2026-08-14",
-   "slot": 61.424
-  },
-  {
-   "datum": "2026-08-17",
-   "slot": 61.757
-  },
-  {
-   "datum": "2026-08-18",
-   "slot": 63.646
-  },
-  {
-   "datum": "2026-08-19",
-   "slot": 63.381
-  },
-  {
-   "datum": "2026-08-20",
-   "slot": 65.295
-  },
-  {
-   "datum": "2026-08-21",
-   "slot": 65.865
-  },
-  {
-   "datum": "2026-08-24",
-   "slot": 68.32
-  },
-  {
-   "datum": "2026-08-25",
-   "slot": 66.588
-  },
-  {
-   "datum": "2026-08-26",
-   "slot": 65.626
-  },
-  {
-   "datum": "2026-08-27",
-   "slot": 68.095
-  },
-  {
-   "datum": "2026-08-28",
-   "slot": 66.979
-  },
-  {
-   "datum": "2026-08-31",
-   "slot": 69.809
-  },
-  {
-   "datum": "2026-09-01",
-   "slot": 72.218
-  },
-  {
-   "datum": "2026-09-02",
-   "slot": 73.634
-  },
-  {
-   "datum": "2026-09-03",
-   "slot": 71.81
-  },
-  {
-   "datum": "2026-09-04",
-   "slot": 71.952
-  },
-  {
-   "datum": "2026-09-08",
-   "slot": 75.841
-  },
-  {
-   "datum": "2026-09-09",
-   "slot": 79.246
-  },
-  {
-   "datum": "2026-09-10",
-   "slot": 82.047
-  },
-  {
-   "datum": "2026-09-11",
-   "slot": 79.52
-  },
-  {
-   "datum": "2026-09-14",
-   "slot": 82.566
-  },
-  {
-   "datum": "2026-09-15",
-   "slot": 80.06
-  },
-  {
-   "datum": "2026-09-16",
-   "slot": 78.03
-  },
-  {
-   "datum": "2026-09-17",
-   "slot": 76.352
-  },
-  {
-   "datum": "2026-09-18",
-   "slot": 79.518
-  },
-  {
-   "datum": "2026-09-21",
-   "slot": 73.253
-  },
-  {
-   "datum": "2026-09-22",
-   "slot": 73.34
-  },
-  {
-   "datum": "2026-09-23",
-   "slot": 72.01
-  },
-  {
-   "datum": "2026-09-24",
-   "slot": 75.106
-  },
-  {
-   "datum": "2026-09-25",
-   "slot": 72.071
-  },
-  {
-   "datum": "2026-09-28",
-   "slot": 73.437
-  },
-  {
-   "datum": "2026-09-29",
-   "slot": 69.805
-  },
-  {
-   "datum": "2026-09-30",
-   "slot": 72.357
-  },
-  {
-   "datum": "2026-10-01",
-   "slot": 73.938
-  },
-  {
-   "datum": "2026-10-02",
-   "slot": 74.76
-  },
-  {
-   "datum": "2026-10-05",
-   "slot": 73.513
-  },
-  {
-   "datum": "2026-10-06",
-   "slot": 75.691
-  },
-  {
-   "datum": "2026-10-07",
-   "slot": 78.08
-  },
-  {
-   "datum": "2026-10-08",
-   "slot": 78.849
-  },
-  {
-   "datum": "2026-10-09",
-   "slot": 81.434
-  },
-  {
-   "datum": "2026-10-12",
-   "slot": 84.351
-  },
-  {
-   "datum": "2026-10-13",
-   "slot": 87.223
-  },
-  {
-   "datum": "2026-10-14",
-   "slot": 87.138
-  },
-  {
    "datum": "2026-10-15",
-   "slot": 86.432
-  },
-  {
-   "datum": "2026-10-16",
-   "slot": 87.547
-  },
-  {
-   "datum": "2026-10-19",
-   "slot": 88.04
-  },
-  {
-   "datum": "2026-10-20",
-   "slot": 85.062
-  },
-  {
-   "datum": "2026-10-21",
-   "slot": 87.426
-  },
-  {
-   "datum": "2026-10-22",
-   "slot": 90.043
-  },
-  {
-   "datum": "2026-10-23",
-   "slot": 93.853
-  },
-  {
-   "datum": "2026-10-26",
-   "slot": 96.681
-  },
-  {
-   "datum": "2026-10-27",
-   "slot": 96.061
-  },
-  {
-   "datum": "2026-10-28",
-   "slot": 100.72
-  },
-  {
-   "datum": "2026-10-29",
-   "slot": 98.588
-  },
-  {
-   "datum": "2026-10-30",
-   "slot": 103.944
-  },
-  {
-   "datum": "2026-11-02",
-   "slot": 94.861
-  },
-  {
-   "datum": "2026-11-03",
-   "slot": 91.602
-  },
-  {
-   "datum": "2026-11-04",
-   "slot": 88.082
-  },
-  {
-   "datum": "2026-11-05",
-   "slot": 90.679
-  },
-  {
-   "datum": "2026-11-06",
-   "slot": 85.588
+   "slot": 86.54
   }
  ],
  "gas_markt_dag": [
-  {
-   "datum": "2026-09-10",
-   "markt_excl": 0.76392
-  },
   {
    "datum": "2026-09-11",
    "markt_excl": 0.79491
@@ -3253,6 +2163,10 @@
   {
    "datum": "2026-11-08",
    "markt_excl": 0.84398
+  },
+  {
+   "datum": "2026-11-09",
+   "markt_excl": 0.8444
   }
  ],
  "dyn_leveranciers": [
@@ -3262,8 +2176,8 @@
    "vast_per_maand_incl": 9.75,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://www.anwb.nl/energie",
-   "prijs_vandaag_incl": 1.8248,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8253,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Budget Thuis (Budget Energie)",
@@ -3271,8 +2185,8 @@
    "vast_per_maand_incl": 5.99,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://www.budgetthuis.nl",
-   "prijs_vandaag_incl": 1.8121,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8127,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Eneco",
@@ -3280,8 +2194,8 @@
    "vast_per_maand_incl": 7.0,
    "gecontroleerd": "2026-09-26T00:00:00Z",
    "website": "https://www.eneco.nl",
-   "prijs_vandaag_incl": 1.8527,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8532,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Energiedirect",
@@ -3289,8 +2203,8 @@
    "vast_per_maand_incl": 5.49,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.energiedirect.nl",
-   "prijs_vandaag_incl": 1.823,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8235,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Energiek",
@@ -3298,8 +2212,8 @@
    "vast_per_maand_incl": 5.9895,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.energiek.nl",
-   "prijs_vandaag_incl": 1.808,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8085,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "EnergyZero",
@@ -3307,8 +2221,8 @@
    "vast_per_maand_incl": 7.5001,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.energyzero.nl",
-   "prijs_vandaag_incl": 1.823,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8235,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Essent",
@@ -3316,8 +2230,8 @@
    "vast_per_maand_incl": 5.99,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.essent.nl",
-   "prijs_vandaag_incl": 1.8267,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8272,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Frank Energie",
@@ -3325,8 +2239,8 @@
    "vast_per_maand_incl": 7.0,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://www.frankenergie.nl",
-   "prijs_vandaag_incl": 1.8279,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8284,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Greenchoice",
@@ -3334,8 +2248,8 @@
    "vast_per_maand_incl": 7.4999,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.greenchoice.nl",
-   "prijs_vandaag_incl": 1.823,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8235,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Live Energy",
@@ -3343,8 +2257,8 @@
    "vast_per_maand_incl": 6.05,
    "gecontroleerd": "2026-09-24T00:00:00Z",
    "website": "https://www.liveenergy.nl",
-   "prijs_vandaag_incl": 1.8327,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8332,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "NextEnergy",
@@ -3352,8 +2266,8 @@
    "vast_per_maand_incl": 5.99,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://www.nextenergy.nl",
-   "prijs_vandaag_incl": 1.827,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8275,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "OM | nieuwe energie",
@@ -3361,8 +2275,8 @@
    "vast_per_maand_incl": 8.5708,
    "gecontroleerd": "2026-09-30T00:00:00Z",
    "website": "https://www.samenom.nl",
-   "prijs_vandaag_incl": 1.828,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8285,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Powerpeers",
@@ -3370,8 +2284,8 @@
    "vast_per_maand_incl": 6.25,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://powerpeers.nl",
-   "prijs_vandaag_incl": 1.8301,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8306,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Pure Energie",
@@ -3379,8 +2293,8 @@
    "vast_per_maand_incl": 6.05,
    "gecontroleerd": "2026-09-24T00:00:00Z",
    "website": "https://pure-energie.nl",
-   "prijs_vandaag_incl": 1.847,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8475,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Tibber",
@@ -3388,8 +2302,8 @@
    "vast_per_maand_incl": 5.99,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://tibber.com/nl",
-   "prijs_vandaag_incl": 1.8364,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8369,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Vandebron",
@@ -3397,8 +2311,8 @@
    "vast_per_maand_incl": 6.9952,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://vandebron.nl",
-   "prijs_vandaag_incl": 1.8078,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8084,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Vattenfall (FlexPrijs)",
@@ -3406,8 +2320,8 @@
    "vast_per_maand_incl": 5.99,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://www.vattenfall.nl",
-   "prijs_vandaag_incl": 1.823,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8235,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Zonneplan",
@@ -3415,8 +2329,8 @@
    "vast_per_maand_incl": 6.25,
    "gecontroleerd": "2026-09-24T00:00:00Z",
    "website": "https://www.zonneplan.nl",
-   "prijs_vandaag_incl": 1.828,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8285,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "Zonopnaam Energie",
@@ -3424,8 +2338,8 @@
    "vast_per_maand_incl": 7.5008,
    "gecontroleerd": "2026-11-02T12:21:09.737Z",
    "website": "https://www.zonopnaam.nl",
-   "prijs_vandaag_incl": 1.8279,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8284,
+   "prijs_datum": "2026-11-09"
   },
   {
    "naam": "easyEnergy",
@@ -3433,8 +2347,8 @@
    "vast_per_maand_incl": 7.0,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.easyenergy.com",
-   "prijs_vandaag_incl": 1.8778,
-   "prijs_datum": "2026-11-08"
+   "prijs_vandaag_incl": 1.8783,
+   "prijs_datum": "2026-11-09"
   }
  ],
  "ttf_maand": [
@@ -3923,7 +2837,394 @@
   },
   "btw": 0.21
  },
+ "maatregelen": {
+  "versie": 2,
+  "peildatum": "2026-11-09",
+  "toelichting": "Besparingen per maatregel voor de Verduurzamingswijzer. Bronnen: Milieu Centraal (direct of via de aangegeven publicaties), Nibud, RVO en Consumentenbond. Besparingen gelden voor een gemiddelde woning van het type en worden op de pagina geschaald naar het verbruik van de bezoeker (zie 'schaling'). Combinaties zijn niet optelbaar: combineer als verbruik × (1 − Π(1 − besparing_i/verbruik)).",
+  "woningtypes": {
+   "appartement": {
+    "label": "Appartement / flat",
+    "gem_verbruik_m3": 750
+   },
+   "tussenwoning": {
+    "label": "Tussenwoning",
+    "gem_verbruik_m3": 990
+   },
+   "hoekwoning": {
+    "label": "Hoekwoning",
+    "gem_verbruik_m3": 1160
+   },
+   "twee_onder_een_kap": {
+    "label": "Twee-onder-een-kap",
+    "gem_verbruik_m3": 1320
+   },
+   "vrijstaand": {
+    "label": "Vrijstaande woning",
+    "gem_verbruik_m3": 1740
+   },
+   "bron": "Nibud, gemiddeld gasverbruik per woningtype 2025 (via selectra.nl)"
+  },
+  "schaling": {
+   "kleine_maatregelen": "besparing × (verbruik / referentieverbruik van de bron), begrensd tussen 0,5 en 1,6",
+   "isolatie": "besparing_type × (verbruik / gem_verbruik_m3 van het woningtype), begrensd tussen 0,6 en 1,5",
+   "referentieverbruik_kleine_maatregelen_m3": 1214,
+   "referentie_bron": "ANWB/Milieu Centraal: hoekwoning uit 1970, matig geïsoleerd, 2 bewoners, 1.214 m³ per jaar"
+  },
+  "maatregelen": [
+   {
+    "id": "thermostaat_graad",
+    "naam": "Thermostaat één graad lager",
+    "categorie": "gratis",
+    "rekentype": "vast_m3_geschaald",
+    "besparing_m3": 125,
+    "kosten": 0,
+    "levensduur_jaar": null,
+    "voorwaarde": null,
+    "bron": "ANWB Kampioen op basis van Milieu Centraal (hoekwoning 1970, 1.214 m³)",
+    "bron_url": "https://www.anwb.nl/kampioen/themadossier/energiebesparen-winter",
+    "woningtypes": "alle"
+   },
+   {
+    "id": "thermostaat_schema",
+    "naam": "Thermostaat op 15 °C als niemand thuis is (4 dagen per week)",
+    "categorie": "gratis",
+    "rekentype": "vast_m3_geschaald",
+    "besparing_m3": 100,
+    "kosten": 0,
+    "optie": {
+     "naam": "Slimme thermostaat die dit automatisch regelt",
+     "kosten_min": 150,
+     "kosten_max": 250
+    },
+    "voorwaarde": null,
+    "bron": "Milieu Centraal (gemeentelijke bespaarposters, ±100–120 m³; conservatief 100 m³)",
+    "bron_url": "https://www.schagen.nl/sites/default/files/2023-12/24%20tips%20poster.pdf",
+    "woningtypes": "alle"
+   },
+   {
+    "id": "cv_60",
+    "naam": "Cv-aanvoertemperatuur naar 60 °C",
+    "categorie": "gratis",
+    "rekentype": "vast_m3_geschaald",
+    "besparing_m3": 50,
+    "kosten": 0,
+    "voorwaarde": "hr-combiketel",
+    "opmerking": "Bronnen noemen 'tot 100 m³' (Consumentenbond) en 'tot enkele procenten' (ANWB); wij rekenen voorzichtig met 50 m³.",
+    "bron": "Consumentenbond via Duurzaam Bouwloket; ANWB",
+    "bron_url": "https://zetmop60.nl/",
+    "woningtypes": "alle"
+   },
+   {
+    "id": "kieren",
+    "naam": "Naden en kieren dichten (tochtstrips, brievenbusborstel)",
+    "categorie": "zelf",
+    "rekentype": "vast_m3_geschaald",
+    "besparing_m3": 50,
+    "kosten_min": 20,
+    "kosten_max": 60,
+    "levensduur_jaar": 5,
+    "bron": "ANWB Kampioen op basis van Milieu Centraal",
+    "bron_url": "https://www.anwb.nl/kampioen/themadossier/energiebesparen-winter",
+    "woningtypes": "alle",
+    "winkelcategorie": "tochtwering"
+   },
+   {
+    "id": "douchekop",
+    "naam": "Waterbesparende douchekop",
+    "categorie": "zelf",
+    "rekentype": "per_persoon_m3",
+    "besparing_m3_per_persoon": 15,
+    "kosten_min": 20,
+    "kosten_max": 40,
+    "levensduur_jaar": 10,
+    "bron": "ANWB Kampioen op basis van Milieu Centraal (15 m³ per persoon)",
+    "bron_url": "https://www.anwb.nl/kampioen/themadossier/energiebesparen-winter",
+    "woningtypes": "alle",
+    "winkelcategorie": "douchekop"
+   },
+   {
+    "id": "radiatorfolie",
+    "naam": "Radiatorfolie achter radiatoren op een ongeïsoleerde buitenmuur",
+    "categorie": "zelf",
+    "rekentype": "per_m2_m3",
+    "besparing_m3_per_m2": 10,
+    "standaard_m2": 4,
+    "kosten_per_m2_min": 3,
+    "kosten_per_m2_max": 5,
+    "levensduur_jaar": 15,
+    "voorwaarde": "alleen tonen als de spouwmuur-status 'nee' is (ongeïsoleerde buitenmuur)",
+    "bron": "Milieu Centraal (10 m³ per m² op ongeïsoleerde spouwmuur)",
+    "bron_url": "https://www.schagen.nl/sites/default/files/2023-12/24%20tips%20poster.pdf",
+    "woningtypes": "alle",
+    "winkelcategorie": "radiatorfolie"
+   },
+   {
+    "id": "leidingisolatie",
+    "naam": "Cv-leidingen isoleren in onverwarmde ruimtes",
+    "categorie": "zelf",
+    "rekentype": "per_meter_m3",
+    "besparing_m3_per_meter": 3,
+    "standaard_meter": 10,
+    "kosten_min": 25,
+    "kosten_max": 50,
+    "levensduur_jaar": 20,
+    "voorwaarde": "leidingen in kruipruimte, zolder of berging",
+    "bron": "Milieu Centraal (3 m³ per meter)",
+    "bron_url": "https://baarn.pvda.nl/wp-content/uploads/sites/26/2019/03/19-03-04-Presentatie-KleineMaatregelen_PVDABaarn.pdf",
+    "woningtypes": "alle",
+    "winkelcategorie": "leidingisolatie"
+   },
+   {
+    "id": "spouwmuur",
+    "naam": "Spouwmuurisolatie",
+    "categorie": "isolatie",
+    "rekentype": "per_woningtype_m3",
+    "besparing_m3": {
+     "tussenwoning": 180,
+     "hoekwoning": 400,
+     "twee_onder_een_kap": 410,
+     "vrijstaand": 600
+    },
+    "kosten": {
+     "tussenwoning": 1100,
+     "hoekwoning": 2350,
+     "twee_onder_een_kap": 2450,
+     "vrijstaand": 3500
+    },
+    "subsidie_isde": {
+     "tussenwoning": 310,
+     "hoekwoning": 700,
+     "twee_onder_een_kap": 720,
+     "vrijstaand": 1000
+    },
+    "levensduur_jaar": 40,
+    "voorwaarde": "spouwmuur aanwezig en nog niet geïsoleerd (veel woningen van vóór ±1975)",
+    "subsidie_opmerking": "ISDE-bedrag bij combinatie met een tweede isolatiemaatregel",
+    "bron": "Milieu Centraal (via Gamma klusadvies en Univé)",
+    "bron_url": "https://www.gamma.nl/klusadvies/a/kosten-spouwmuurisolatie",
+    "woningtypes": [
+     "tussenwoning",
+     "hoekwoning",
+     "twee_onder_een_kap",
+     "vrijstaand"
+    ],
+    "installateur": true,
+    "standaard_status_per_bouwjaar": {
+     "tot_1975": "nee",
+     "1975_1991": "deels",
+     "vanaf_1992": "ja"
+    },
+    "natuurlijk_moment": "Bij gevelrenovatie of voegwerk: laat meteen de spouw controleren."
+   },
+   {
+    "id": "vloer",
+    "naam": "Vloerisolatie",
+    "categorie": "isolatie",
+    "rekentype": "per_woningtype_m3",
+    "besparing_m3": {
+     "tussenwoning": 85,
+     "hoekwoning": 135,
+     "twee_onder_een_kap": 165,
+     "vrijstaand": 250
+    },
+    "kosten": {
+     "tussenwoning": 1900,
+     "hoekwoning": 2000,
+     "twee_onder_een_kap": 3000,
+     "vrijstaand": 3350
+    },
+    "subsidie_isde": {
+     "tussenwoning": 530,
+     "hoekwoning": 550,
+     "twee_onder_een_kap": 700,
+     "vrijstaand": 1000
+    },
+    "levensduur_jaar": 40,
+    "voorwaarde": "kruipruimte aanwezig, vloer nog niet geïsoleerd",
+    "subsidie_opmerking": "ISDE-bedrag bij combinatie met een tweede isolatiemaatregel",
+    "bron": "Milieu Centraal en Slimster (via ID.nl); m³ afgeleid uit besparing bij €1,20/m³",
+    "bron_url": "https://id.nl/energie-en-klimaat/elektriciteit/energiezuinigheid/wat-kost-isoleren-en-wat-levert-het-op",
+    "woningtypes": [
+     "tussenwoning",
+     "hoekwoning",
+     "twee_onder_een_kap",
+     "vrijstaand"
+    ],
+    "installateur": true,
+    "standaard_status_per_bouwjaar": {
+     "tot_1975": "nee",
+     "1975_1991": "deels",
+     "vanaf_1992": "ja"
+    },
+    "natuurlijk_moment": "Bij werk in de kruipruimte (leidingen, vochtproblemen): combineer met bodem- of vloerisolatie."
+   },
+   {
+    "id": "dak",
+    "naam": "Dakisolatie (schuin dak)",
+    "categorie": "isolatie",
+    "rekentype": "per_woningtype_m3",
+    "besparing_m3": {
+     "tussenwoning": 375,
+     "hoekwoning": 415,
+     "twee_onder_een_kap": 460,
+     "vrijstaand": 665
+    },
+    "kosten": {
+     "tussenwoning": 3800,
+     "hoekwoning": 4200,
+     "twee_onder_een_kap": 5000,
+     "vrijstaand": 7000
+    },
+    "subsidie_isde": {
+     "tussenwoning": 1600,
+     "hoekwoning": 1700,
+     "twee_onder_een_kap": 1800,
+     "vrijstaand": 2700
+    },
+    "levensduur_jaar": 40,
+    "voorwaarde": "schuin dak, nog niet geïsoleerd",
+    "subsidie_opmerking": "ISDE-bedrag bij combinatie met een tweede isolatiemaatregel",
+    "bron": "Milieu Centraal en Slimster (via ID.nl); m³ afgeleid uit besparing bij €1,20/m³",
+    "bron_url": "https://id.nl/energie-en-klimaat/elektriciteit/energiezuinigheid/wat-kost-isoleren-en-wat-levert-het-op",
+    "woningtypes": [
+     "tussenwoning",
+     "hoekwoning",
+     "twee_onder_een_kap",
+     "vrijstaand"
+    ],
+    "installateur": true,
+    "standaard_status_per_bouwjaar": {
+     "tot_1975": "nee",
+     "1975_1991": "deels",
+     "vanaf_1992": "ja"
+    },
+    "natuurlijk_moment": "Bij dakrenovatie (nieuwe pannen of dakbeschot): isoleer van buitenaf mee. Steiger en arbeid zijn er dan al, de meerprijs voor dikke isolatie is relatief klein en je verliest geen zolderruimte. Vraag offertes met een hoge Rc-waarde."
+   },
+   {
+    "id": "hrglas_van_dubbel",
+    "naam": "HR++-glas in plaats van gewoon dubbel glas (hele woning)",
+    "categorie": "isolatie",
+    "rekentype": "per_woningtype_m3",
+    "besparing_m3": {
+     "tussenwoning": 65,
+     "hoekwoning": 70,
+     "twee_onder_een_kap": 80,
+     "vrijstaand": 100
+    },
+    "kosten": {
+     "tussenwoning": 3500,
+     "hoekwoning": 3925,
+     "twee_onder_een_kap": 4000,
+     "vrijstaand": 4950
+    },
+    "subsidie_isde": {
+     "tussenwoning": 1100,
+     "hoekwoning": 1150,
+     "twee_onder_een_kap": 1300,
+     "vrijstaand": 1600
+    },
+    "levensduur_jaar": 30,
+    "voorwaarde": "nu gewoon dubbel glas",
+    "subsidie_opmerking": "ISDE-bedrag bij combinatie met een tweede isolatiemaatregel",
+    "bron": "Milieu Centraal (via ID.nl); m³ afgeleid uit besparing bij €1,20/m³",
+    "bron_url": "https://id.nl/energie-en-klimaat/elektriciteit/energiezuinigheid/wat-kost-isoleren-en-wat-levert-het-op",
+    "woningtypes": [
+     "tussenwoning",
+     "hoekwoning",
+     "twee_onder_een_kap",
+     "vrijstaand"
+    ],
+    "installateur": true,
+    "standaard_status_per_bouwjaar": {
+     "tot_1975": "nee",
+     "1975_1991": "nee",
+     "vanaf_1992": "ja"
+    },
+    "natuurlijk_moment": "Als kozijnen toch vervangen of geschilderd moeten worden: kies dan HR++ of triple glas."
+   },
+   {
+    "id": "hrglas_van_enkel",
+    "naam": "Enkel glas vervangen door HR++-glas",
+    "categorie": "isolatie",
+    "rekentype": "per_m2_m3",
+    "besparing_m3_per_m2": 26,
+    "standaard_m2": 2,
+    "kosten_per_m2_min": 155,
+    "kosten_per_m2_max": 198,
+    "subsidie_per_m2": 25,
+    "levensduur_jaar": 30,
+    "invoer": "Vraag: 'Heb je nog ramen met enkel glas? Hoeveel m² ongeveer?' (hulp: een klein raampje is ±0,5 m²)",
+    "subsidie_opmerking": "ISDE €25 per m² als alleen het glas wordt vervangen (Consumentenbond, mei 2026)",
+    "natuurlijk_moment": "Combineer met ander klus- of schilderwerk aan de kozijnen.",
+    "bron": "Stimular-vuistregel: enkel glas in houten kozijn → HR++ bespaart gemiddeld 26 m³ per m² per jaar; kosten €155–198 per m² (Woonbond); subsidie Consumentenbond",
+    "bron_url": "https://www.stimular.nl/maatregelen/dubbel-glas-en-hr-glas",
+    "woningtypes": "alle",
+    "installateur": true
+   },
+   {
+    "id": "hybride_wp",
+    "naam": "Hybride warmtepomp (naast bestaande cv-ketel)",
+    "categorie": "installatie",
+    "rekentype": "hybride_warmtepomp",
+    "aandeel_ruimteverwarming_overgenomen": 0.6,
+    "gas_niet_verwarming_m3": 250,
+    "ketelrendement": 0.9,
+    "scop": 3.5,
+    "kwh_per_m3": 9.769,
+    "kosten": 6200,
+    "subsidie_isde": 2500,
+    "levensduur_jaar": 15,
+    "subsidie_opmerking": "ISDE meestal €2.400–2.700, exact bedrag per toestel via de RVO-meldcodelijst; minimaal €500. Voorstel: lagere ISDE-tarieven voor warmtepompen vanaf 1 januari 2027.",
+    "controle": "Milieu Centraal: ±€625 per jaar besparing in een matig geïsoleerde hoekwoning; onze formule geeft bij 1.214 m³, €1,90/m³ gas en €0,30/kWh stroom ±€660",
+    "bron": "Milieu Centraal richtprijs juli 2026 (via Selectra); ISDE via RVO en Consumentenbond",
+    "bron_url": "https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren/warmtepomp",
+    "woningtypes": [
+     "tussenwoning",
+     "hoekwoning",
+     "twee_onder_een_kap",
+     "vrijstaand"
+    ],
+    "installateur": true
+   }
+  ],
+  "rekenregels": {
+   "gasprijs": "verwachte gemiddelde gasprijs (incl. btw en energiebelasting) van het huidige contract over de komende 12 maanden, uit de keuzehulp; anders laatste CBS-gemiddelde",
+   "stroomprijs": "laatste cbs_stroom: levering_incl + energiebelasting_incl",
+   "besparing_euro": "besparing_m3 × gasprijs (hybride: − extra stroom × stroomprijs)",
+   "hybride": "gasbesparing = aandeel × max(0, verbruik_na_isolatie − gas_niet_verwarming_m3); extra_kwh = gasbesparing × kwh_per_m3 × ketelrendement / scop",
+   "terugverdientijd": "(kosten − subsidie) / besparing_euro per jaar; 'direct' bij kosten 0; toon '> levensduur' als langer dan levensduur_jaar",
+   "combinatie": "verbruik × (1 − Π(1 − besparing_i/verbruik)); hybride altijd als laatste toepassen op het verbruik ná isolatie"
+  },
+  "isolatiestatus": {
+   "opties": {
+    "nee": "Niet geïsoleerd → volledige besparing tonen",
+    "deels": "Bij de bouw of deels geïsoleerd → geen besparingsgetal; advies: laat controleren of na-isoleren kan (bijv. inspectie via boorgaatje bij spouw)",
+    "ja": "Goed geïsoleerd → maatregel niet tonen in pakketten, wel als 'al gedaan' afvinken",
+    "gepland": "Staat gepland (bijv. renovatie) → volledige besparing tonen plus de natuurlijk-moment-tip van de maatregel"
+   },
+   "bouwjaarklassen": {
+    "tot_1975": "vóór 1975",
+    "1975_1991": "1975 – 1991",
+    "vanaf_1992": "1992 of later"
+   },
+   "toelichting": "Standaardwaarde per maatregel via 'standaard_status_per_bouwjaar'; de bezoeker kan die altijd aanpassen. Rekenen met 'deels' zou besparingen opblazen die er niet zijn."
+  },
+  "subsidie_algemeen": {
+   "isde_isolatie": "Verhoogd ISDE-bedrag geldt bij twee isolatiemaatregelen; er gelden termijnen en minimale Rc/U-waarden. Laat de bezoeker altijd de actuele voorwaarden bij RVO checken.",
+   "bron_url": "https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren"
+  }
+ },
  "wijzigingslog": [
+  {
+   "tijd": "2026-11-09T06:21:39Z",
+   "bron": "gas_markt_dag",
+   "tekst": "Gasmarktprijs 2026-11-09: €0.844/m³ excl. btw"
+  },
+  {
+   "tijd": "2026-11-09T06:21:28Z",
+   "bron": "ttf_dag",
+   "tekst": "TTF 2026-10-15: €86.54/MWh"
+  },
   {
    "tijd": "2026-11-08T10:15:52Z",
    "bron": "gas_markt_dag",
