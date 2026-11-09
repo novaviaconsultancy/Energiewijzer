@@ -1,13 +1,13 @@
 {
  "versie": 1,
- "gegenereerd": "2026-11-09T06:23:08Z",
+ "gegenereerd": "2026-11-09T06:29:27Z",
  "bronnen": {
   "cbs": {
    "naam": "CBS StatLine 85592NED",
    "url": "https://opendata.cbs.nl/ODataApi/OData/85592NED",
    "rijen": 57,
    "laatste_periode": "2026-09",
-   "bijgewerkt": "2026-11-09T06:22:55Z",
+   "bijgewerkt": "2026-11-09T06:29:15Z",
    "schema": "maandelijks, rond de 2e donderdag",
    "status": "ok",
    "melding": null
@@ -17,7 +17,7 @@
    "url": "data/manual/ttf_termijn.json",
    "rijen": 10,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-09T06:22:35Z",
+   "bijgewerkt": "2026-11-09T06:28:57Z",
    "schema": "bij grote marktbewegingen",
    "status": "ok",
    "melding": null
@@ -27,7 +27,7 @@
    "url": "data/manual/acm_mediaan_gas.json",
    "rijen": 15,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-09T06:22:35Z",
+   "bijgewerkt": "2026-11-09T06:28:57Z",
    "schema": "maandelijks, rond het midden van de maand",
    "status": "ok",
    "melding": null
@@ -37,7 +37,7 @@
    "url": "data/manual/nieuws.json",
    "rijen": 9,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-09T06:22:35Z",
+   "bijgewerkt": "2026-11-09T06:28:57Z",
    "schema": "wekelijks",
    "status": "ok",
    "melding": null
@@ -47,7 +47,7 @@
    "url": "data/manual/belasting.json",
    "rijen": 1,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-09T06:22:35Z",
+   "bijgewerkt": "2026-11-09T06:28:57Z",
    "schema": "jaarlijks, na stemming Eerste Kamer",
    "status": "ok",
    "melding": null
@@ -57,7 +57,7 @@
    "url": "https://finance.yahoo.com/quote/TTF%3DF",
    "rijen": 1,
    "laatste_periode": "2026-11-06",
-   "bijgewerkt": "2026-11-09T06:22:56Z",
+   "bijgewerkt": "2026-11-09T06:29:16Z",
    "schema": "dagelijks op werkdagen",
    "status": "ok",
    "melding": null
@@ -67,7 +67,7 @@
    "url": "https://www.energyzero.nl",
    "rijen": 60,
    "laatste_periode": "2026-11-09",
-   "bijgewerkt": "2026-11-09T06:23:08Z",
+   "bijgewerkt": "2026-11-09T06:29:27Z",
    "schema": "dagelijks, nieuwe prijs vanaf 06:00",
    "status": "ok",
    "melding": null
@@ -77,7 +77,7 @@
    "url": "https://github.com/zhinees/energieprijzen-nl",
    "rijen": 20,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-09T06:23:08Z",
+   "bijgewerkt": "2026-11-09T06:29:27Z",
    "schema": "wekelijks + 1e en 2e van de maand",
    "status": "ok",
    "melding": null
@@ -87,7 +87,7 @@
    "url": "data/manual/maatregelen.json",
    "rijen": 1,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-09T06:22:35Z",
+   "bijgewerkt": "2026-11-09T06:28:57Z",
    "schema": "per kwartaal en bij nieuwe subsidieregels",
    "status": "ok",
    "melding": null
