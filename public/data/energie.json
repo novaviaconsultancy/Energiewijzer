@@ -1,13 +1,13 @@
 {
  "versie": 1,
- "gegenereerd": "2026-11-23T06:32:50Z",
+ "gegenereerd": "2026-11-24T06:20:51Z",
  "bronnen": {
   "cbs": {
    "naam": "CBS StatLine 85592NED",
    "url": "https://opendata.cbs.nl/ODataApi/OData/85592NED",
    "rijen": 58,
    "laatste_periode": "2026-10",
-   "bijgewerkt": "2026-11-23T06:32:37Z",
+   "bijgewerkt": "2026-11-24T06:20:40Z",
    "schema": "maandelijks, rond de 2e donderdag",
    "status": "ok",
    "melding": null
@@ -17,7 +17,7 @@
    "url": "data/manual/ttf_termijn.json",
    "rijen": 10,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-23T06:32:18Z",
+   "bijgewerkt": "2026-11-24T06:20:21Z",
    "schema": "bij grote marktbewegingen",
    "status": "ok",
    "melding": null
@@ -27,7 +27,7 @@
    "url": "data/manual/acm_mediaan_gas.json",
    "rijen": 15,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-23T06:32:18Z",
+   "bijgewerkt": "2026-11-24T06:20:21Z",
    "schema": "maandelijks, rond het midden van de maand",
    "status": "ok",
    "melding": null
@@ -37,7 +37,7 @@
    "url": "data/manual/nieuws.json",
    "rijen": 9,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-23T06:32:18Z",
+   "bijgewerkt": "2026-11-24T06:20:21Z",
    "schema": "wekelijks",
    "status": "ok",
    "melding": null
@@ -47,7 +47,7 @@
    "url": "data/manual/belasting.json",
    "rijen": 1,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-23T06:32:18Z",
+   "bijgewerkt": "2026-11-24T06:20:21Z",
    "schema": "jaarlijks, na stemming Eerste Kamer",
    "status": "ok",
    "melding": null
@@ -55,9 +55,9 @@
   "ttf_dag": {
    "naam": "TTF front-month slotkoers (Yahoo Finance TTF=F)",
    "url": "https://finance.yahoo.com/quote/TTF%3DF",
-   "rijen": 275,
-   "laatste_periode": "2026-11-20",
-   "bijgewerkt": "2026-11-23T06:32:38Z",
+   "rijen": 276,
+   "laatste_periode": "2026-11-23",
+   "bijgewerkt": "2026-11-24T06:20:41Z",
    "schema": "dagelijks op werkdagen",
    "status": "ok",
    "melding": null
@@ -66,8 +66,8 @@
    "naam": "Gasprijs per dag (EnergyZero, day-ahead)",
    "url": "https://www.energyzero.nl",
    "rijen": 60,
-   "laatste_periode": "2026-11-23",
-   "bijgewerkt": "2026-11-23T06:32:50Z",
+   "laatste_periode": "2026-11-24",
+   "bijgewerkt": "2026-11-24T06:20:51Z",
    "schema": "dagelijks, nieuwe prijs vanaf 06:00",
    "status": "ok",
    "melding": null
@@ -77,7 +77,7 @@
    "url": "https://github.com/zhinees/energieprijzen-nl",
    "rijen": 20,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-23T06:32:50Z",
+   "bijgewerkt": "2026-11-24T06:20:51Z",
    "schema": "wekelijks + 1e en 2e van de maand",
    "status": "ok",
    "melding": null
@@ -87,7 +87,7 @@
    "url": "data/manual/maatregelen.json",
    "rijen": 1,
    "laatste_periode": null,
-   "bijgewerkt": "2026-11-23T06:32:18Z",
+   "bijgewerkt": "2026-11-24T06:20:21Z",
    "schema": "per kwartaal en bij nieuwe subsidieregels",
    "status": "ok",
    "melding": null
@@ -3053,13 +3053,13 @@
   {
    "datum": "2026-11-20",
    "slot": 88.451
+  },
+  {
+   "datum": "2026-11-23",
+   "slot": 89.736
   }
  ],
  "gas_markt_dag": [
-  {
-   "datum": "2026-09-25",
-   "markt_excl": 0.7269
-  },
   {
    "datum": "2026-09-26",
    "markt_excl": 0.72086
@@ -3295,6 +3295,10 @@
   {
    "datum": "2026-11-23",
    "markt_excl": 0.86371
+  },
+  {
+   "datum": "2026-11-24",
+   "markt_excl": 0.87729
   }
  ],
  "dyn_leveranciers": [
@@ -3302,19 +3306,19 @@
    "naam": "ANWB Energie",
    "opslag_incl": 0.0768,
    "vast_per_maand_incl": 9.75,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://www.anwb.nl/energie",
-   "prijs_vandaag_incl": 1.8487,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8651,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Budget Thuis (Budget Energie)",
    "opslag_incl": 0.06413,
    "vast_per_maand_incl": 5.99,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://www.budgetthuis.nl",
-   "prijs_vandaag_incl": 1.836,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8524,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Eneco",
@@ -3322,8 +3326,8 @@
    "vast_per_maand_incl": 7.0,
    "gecontroleerd": "2026-09-26T00:00:00Z",
    "website": "https://www.eneco.nl",
-   "prijs_vandaag_incl": 1.8766,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.893,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Energiedirect",
@@ -3331,8 +3335,8 @@
    "vast_per_maand_incl": 5.49,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.energiedirect.nl",
-   "prijs_vandaag_incl": 1.8469,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8633,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Energiek",
@@ -3340,8 +3344,8 @@
    "vast_per_maand_incl": 5.9895,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.energiek.nl",
-   "prijs_vandaag_incl": 1.8319,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8483,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "EnergyZero",
@@ -3349,8 +3353,8 @@
    "vast_per_maand_incl": 7.5001,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.energyzero.nl",
-   "prijs_vandaag_incl": 1.8468,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8633,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Essent",
@@ -3358,17 +3362,17 @@
    "vast_per_maand_incl": 5.99,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.essent.nl",
-   "prijs_vandaag_incl": 1.8506,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.867,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Frank Energie",
    "opslag_incl": 0.07986,
    "vast_per_maand_incl": 7.0,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://www.frankenergie.nl",
-   "prijs_vandaag_incl": 1.8517,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8682,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Greenchoice",
@@ -3376,8 +3380,8 @@
    "vast_per_maand_incl": 7.4999,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.greenchoice.nl",
-   "prijs_vandaag_incl": 1.8468,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8633,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Live Energy",
@@ -3385,17 +3389,17 @@
    "vast_per_maand_incl": 6.05,
    "gecontroleerd": "2026-09-24T00:00:00Z",
    "website": "https://www.liveenergy.nl",
-   "prijs_vandaag_incl": 1.8566,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.873,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "NextEnergy",
    "opslag_incl": 0.079,
    "vast_per_maand_incl": 5.99,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://www.nextenergy.nl",
-   "prijs_vandaag_incl": 1.8509,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8673,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "OM | nieuwe energie",
@@ -3403,8 +3407,8 @@
    "vast_per_maand_incl": 8.5708,
    "gecontroleerd": "2026-09-30T00:00:00Z",
    "website": "https://www.samenom.nl",
-   "prijs_vandaag_incl": 1.8519,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8683,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Powerpeers",
@@ -3412,8 +3416,8 @@
    "vast_per_maand_incl": 6.25,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://powerpeers.nl",
-   "prijs_vandaag_incl": 1.854,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8704,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Pure Energie",
@@ -3421,35 +3425,35 @@
    "vast_per_maand_incl": 6.05,
    "gecontroleerd": "2026-09-24T00:00:00Z",
    "website": "https://pure-energie.nl",
-   "prijs_vandaag_incl": 1.8709,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8873,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Tibber",
    "opslag_incl": 0.08835,
    "vast_per_maand_incl": 5.99,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://tibber.com/nl",
-   "prijs_vandaag_incl": 1.8602,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8767,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Vandebron",
-   "opslag_incl": 0.05983,
+   "opslag_incl": 0.09206,
    "vast_per_maand_incl": 6.9952,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://vandebron.nl",
-   "prijs_vandaag_incl": 1.8317,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8804,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Vattenfall (FlexPrijs)",
    "opslag_incl": 0.075,
    "vast_per_maand_incl": 5.99,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://www.vattenfall.nl",
-   "prijs_vandaag_incl": 1.8469,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8633,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Zonneplan",
@@ -3457,17 +3461,17 @@
    "vast_per_maand_incl": 6.25,
    "gecontroleerd": "2026-09-24T00:00:00Z",
    "website": "https://www.zonneplan.nl",
-   "prijs_vandaag_incl": 1.8519,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8683,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "Zonopnaam Energie",
    "opslag_incl": 0.07986,
    "vast_per_maand_incl": 7.5008,
-   "gecontroleerd": "2026-11-16T12:49:33.141Z",
+   "gecontroleerd": "2026-11-23T14:44:36.480Z",
    "website": "https://www.zonopnaam.nl",
-   "prijs_vandaag_incl": 1.8517,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.8682,
+   "prijs_datum": "2026-11-24"
   },
   {
    "naam": "easyEnergy",
@@ -3475,8 +3479,8 @@
    "vast_per_maand_incl": 7.0,
    "gecontroleerd": "2026-09-29T00:00:00Z",
    "website": "https://www.easyenergy.com",
-   "prijs_vandaag_incl": 1.9017,
-   "prijs_datum": "2026-11-23"
+   "prijs_vandaag_incl": 1.9181,
+   "prijs_datum": "2026-11-24"
   }
  ],
  "ttf_maand": [
@@ -4343,6 +4347,21 @@
   }
  },
  "wijzigingslog": [
+  {
+   "tijd": "2026-11-24T06:20:51Z",
+   "bron": "dyn_leveranciers",
+   "tekst": "Vandebron: tarief gewijzigd (opslag €0.0921/m³, vast €7.00/mnd)"
+  },
+  {
+   "tijd": "2026-11-24T06:20:51Z",
+   "bron": "gas_markt_dag",
+   "tekst": "Gasmarktprijs 2026-11-24: €0.877/m³ excl. btw"
+  },
+  {
+   "tijd": "2026-11-24T06:20:41Z",
+   "bron": "ttf_dag",
+   "tekst": "TTF 2026-11-23: €89.74/MWh"
+  },
   {
    "tijd": "2026-11-23T06:32:50Z",
    "bron": "gas_markt_dag",
